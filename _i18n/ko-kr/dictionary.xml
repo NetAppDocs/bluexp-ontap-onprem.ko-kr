@@ -418,4 +418,5 @@
   <block id="a78d007a06bac736eaadb47926ca0155" category="list-text">을 클릭합니다 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> &gt; * 템플릿에서 볼륨 추가 *.</block>
   <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">아래쪽 캐럿 아이콘</block>
   <block id="c3dcc3698432aa0b6e568ec48b5fe13f" category="list-text">추가 세부 정보를 알고 싶은 클러스터의 경우 을 클릭합니다 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> 클러스터 정보를 확장합니다.</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
 </blocks>
