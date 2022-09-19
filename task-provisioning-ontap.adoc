@@ -25,10 +25,10 @@ Cloud Manager를 사용하면 기존 애그리게이트에 NFS 또는 CIFS 볼�
 
 .단계
 . Canvas 페이지에서 볼륨을 프로비저닝할 온프레미스 ONTAP 클러스터의 이름을 두 번 클릭합니다.
-. 새 볼륨 추가 * 를 클릭합니다.
+. 볼륨 > 볼륨 추가 * 를 클릭합니다.
 . 마법사의 단계에 따라 볼륨을 생성합니다.
 +
-.. * 세부 정보 및 보호 *: 볼륨에 대한 기본 세부 정보를 입력한 다음 스냅샷 정책을 선택합니다.
+.. * 세부 정보, 보호 및 태그 *: 이름과 크기 등 볼륨에 대한 세부 정보를 입력하고, 스냅샷 정책을 선택하고, 필요한 경우 볼륨 태그를 지정합니다.
 +
 이 페이지의 일부 필드는 설명이 필요 없습니다. 다음 목록에서는 지침이 필요한 필드를 설명합니다.
 
@@ -43,7 +43,7 @@ Cloud Manager를 사용하면 기존 애그리게이트에 NFS 또는 CIFS 볼�
 
 | 스냅샷 정책 | 스냅샷 복사본 정책은 자동으로 생성되는 NetApp 스냅샷 복사본의 수와 빈도를 지정합니다. NetApp 스냅샷 복사본은 성능 영향이 없고 최소한의 스토리지가 필요한 시점 파일 시스템 이미지입니다. 기본 정책을 선택하거나 선택하지 않을 수 있습니다. Microsoft SQL Server의 tempdb와 같이 임시 데이터에 대해 없음을 선택할 수 있습니다. 
 |===
-.. * 프로토콜 *: 볼륨의 프로토콜(NFS 또는 CIFS)을 선택한 다음 볼륨에 대한 액세스 제어 또는 권한을 설정합니다.
+.. * 프로토콜 *: 볼륨의 프로토콜(NFS, CIFS 또는 iSCSI)을 선택한 다음 볼륨에 대한 액세스 제어 또는 권한을 설정합니다.
 +
 CIFS를 선택하고 서버가 아직 설정되지 않은 경우 Cloud Manager에서 Active Directory 또는 작업 그룹을 사용하여 CIFS 서버를 설정하라는 메시지를 표시합니다.
 
@@ -127,7 +127,7 @@ CIFS 공유를 프로비저닝한 경우 파일 및 폴더에 대한 사용자 �
 
 1회 데이터 복제를 선택하여 Cloud Volumes ONTAP 시스템과 ONTAP 클러스터 간에 데이터를 복제할 수 있습니다. 이 경우 클라우드 간에 데이터를 이동하거나, 재해 복구 또는 장기 보존에 도움이 되는 반복 일정을 선택할 수 있습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["자세한 내용을 보려면 여기를 클릭하십시오"^].
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["데이터를 복제하는 방법에 대해 알아보십시오"^]
 
 
 
@@ -135,7 +135,7 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 클라우드 백업을 사용하여 사내 ONTAP 시스템의 데이터를 클라우드의 저렴한 오브젝트 스토리지로 백업할 수 있습니다. 이 서비스는 온프레미스 및 클라우드 데이터의 보호 및 장기 아카이브를 위한 백업 및 복원 기능을 제공합니다.
 
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["자세한 내용을 보려면 여기를 클릭하십시오"^].
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["데이터를 클라우드에 백업하는 방법을 알아보십시오"^]
 
 
 
@@ -143,7 +143,7 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-clo
 
 Cloud Data Sense는 기업의 사내 클러스터를 스캔하여 데이터를 매핑 및 분류하고, 개인 정보를 식별할 수 있습니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["자세한 내용을 보려면 여기를 클릭하십시오"^].
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["데이터를 스캔, 매핑 및 분류하는 방법을 알아봅니다"^]
 
 
 
@@ -151,4 +151,4 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.
 
 Cloud Tiering을 사용하여 ONTAP 클러스터에서 오브젝트 스토리지로 비활성 데이터를 자동으로 계층화하여 데이터 센터를 클라우드로 확장하십시오.
 
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["자세한 내용을 보려면 여기를 클릭하십시오"^].
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["데이터를 클라우드에 계층화하는 방법을 알아보십시오"^]
