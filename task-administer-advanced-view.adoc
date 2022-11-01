@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-administer-advanced-view.html 
 keywords: system manager, advanced view, access system manager, load system manager, use system manager 
-summary: ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. Cloud Manager 인터페이스에 Cloud Manager 인터페이스가 포함되어 있으므로 고급 관리를 위해 Cloud Manager에서 그대로 둘 필요가 없습니다. 
+summary: ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. BlueXP에 System Manager 인터페이스를 직접 포함하므로 고급 관리를 위해 BlueXP를 떠날 필요가 없습니다. 
 ---
 = 고급 보기를 사용하여 ONTAP를 관리합니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ON
 
 
 [role="lead"]
-ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. Cloud Manager 인터페이스에 Cloud Manager 인터페이스가 포함되어 있으므로 고급 관리를 위해 Cloud Manager에서 그대로 둘 필요가 없습니다.
+ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. BlueXP에 System Manager 인터페이스를 직접 포함하므로 고급 관리를 위해 BlueXP를 떠날 필요가 없습니다.
 
 이 고급 보기는 미리 보기로 사용할 수 있습니다. NetApp은 이 경험을 개선하고 다음 릴리즈에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 사용하여 피드백을 보내주십시오.
 
@@ -22,7 +22,7 @@ ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시�
 
 == 피처
 
-Cloud Manager의 고급 보기에서는 다음과 같은 추가 관리 기능에 액세스할 수 있습니다.
+BlueXP의 고급 보기를 통해 다음과 같은 추가 관리 기능을 사용할 수 있습니다.
 
 * 고급 스토리지 관리
 +
@@ -58,11 +58,11 @@ GovCloud 지역 또는 아웃바운드 인터넷 액세스가 없는 지역에�
 
 == 제한 사항
 
-Cloud Manager에서 고급 보기를 사용하는 경우, 일부 System Manager 기능은 사내 ONTAP 클러스터에서 지원되지 않습니다.
+BlueXP에서 고급 보기를 사용하는 경우 사내 ONTAP 클러스터에서는 몇 가지 시스템 관리자 기능이 지원되지 않습니다.
 
 * 클러스터 설정
 +
-관리 IP 주소를 설정하고 온프레미스 ONTAP 클러스터에서 admin 암호를 구성한 후 Cloud Manager에서 클러스터를 검색하고 고급 보기에서 클러스터 설정을 계속할 수 있습니다.
+관리 IP 주소를 설정하고 온프레미스 ONTAP 클러스터에서 admin 암호를 구성한 후 BlueXP에서 클러스터를 검색하고 고급 보기에서 클러스터 설정을 계속할 수 있습니다.
 
 * Cloud Backup 활성화
 +
@@ -92,7 +92,7 @@ image:screenshot-advanced-view.png["고급 보기로 전환 옵션을 보여 주
 
 . 확인 메시지가 나타나면 메시지를 읽고 * 닫기 * 를 클릭합니다.
 . 시스템 관리자를 사용하여 ONTAP를 관리합니다.
-. 필요한 경우 * 표준 보기로 전환 * 을 클릭하여 Cloud Manager를 통해 표준 관리로 돌아갑니다.
+. 필요한 경우 * 표준 보기로 전환 * 을 클릭하여 BlueXP를 통한 표준 관리로 돌아갑니다.
 +
 image:screenshot-standard-view.png["표준 보기로 전환 옵션을 보여 주는 온프레미스 ONTAP 작업 환경의 스크린샷"]
 

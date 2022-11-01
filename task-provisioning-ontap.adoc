@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-provisioning-ontap.html 
 keywords: ontap, cluster, manage, provision, provisioning, volumes, discovering, fas, aff, creating volumes, adding volumes 
-summary: Cloud Manager에서 온프레미스 ONTAP 클러스터를 검색할 경우 작업 환경을 열어 스토리지를 프로비저닝하고 관리할 수 있습니다. 
+summary: BlueXP에서 온-프레미스 ONTAP 클러스터를 발견한 후 작업 환경을 열어 스토리지를 프로비저닝하고 관리할 수 있습니다. 
 ---
 = 온프레미스 ONTAP 클러스터를 위한 스토리지 관리
 :hardbreaks:
@@ -13,17 +13,18 @@ summary: Cloud Manager에서 온프레미스 ONTAP 클러스터를 검색할 경
 :imagesdir: ./media/
 
 
-Cloud Manager에서 온프레미스 ONTAP 클러스터를 검색할 경우 작업 환경을 열어 스토리지를 프로비저닝하고 관리할 수 있습니다.
+BlueXP에서 온-프레미스 ONTAP 클러스터를 발견한 후 작업 환경을 열어 스토리지를 프로비저닝하고 관리할 수 있습니다.
 
 
 
 == 볼륨 생성 중
 
-Cloud Manager를 사용하면 기존 애그리게이트에 NFS 또는 CIFS 볼륨을 생성할 수 있습니다. Cloud Manager를 사용하여 온프레미스 ONTAP 클러스터에 새 애그리게이트를 생성할 수 없습니다.
+BlueXP를 사용하면 기존 애그리게이트에서 NFS 또는 CIFS 볼륨을 생성할 수 있습니다. BlueXP에서 사내 ONTAP 클러스터에 새 집계를 생성할 수 없습니다.
 
-"템플릿"이라는 Cloud Manager 기능을 사용하면 데이터베이스 또는 스트리밍 서비스와 같은 특정 애플리케이션의 워크로드 요구사항에 최적화된 볼륨을 생성할 수 있습니다. 조직에서 사용해야 하는 볼륨 템플릿을 만든 경우 를 따릅니다  volumes from templates,수행할 수 있습니다.
+"템플릿"이라는 BlueXP 기능을 사용하면 데이터베이스 또는 스트리밍 서비스와 같은 특정 애플리케이션의 워크로드 요구 사항에 최적화된 볼륨을 생성할 수 있습니다. 조직에서 사용해야 하는 볼륨 템플릿을 만든 경우 를 따릅니다  volumes from templates,수행할 수 있습니다.
 
 .단계
+. 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
 . Canvas 페이지에서 볼륨을 프로비저닝할 온프레미스 ONTAP 클러스터의 이름을 두 번 클릭합니다.
 . 볼륨 > 볼륨 추가 * 를 클릭합니다.
 . 마법사의 단계에 따라 볼륨을 생성합니다.
@@ -45,7 +46,7 @@ Cloud Manager를 사용하면 기존 애그리게이트에 NFS 또는 CIFS 볼�
 |===
 .. * 프로토콜 *: 볼륨의 프로토콜(NFS, CIFS 또는 iSCSI)을 선택한 다음 볼륨에 대한 액세스 제어 또는 권한을 설정합니다.
 +
-CIFS를 선택하고 서버가 아직 설정되지 않은 경우 Cloud Manager에서 Active Directory 또는 작업 그룹을 사용하여 CIFS 서버를 설정하라는 메시지를 표시합니다.
+CIFS를 선택하고 서버가 아직 설정되지 않은 경우 BlueXP에서 Active Directory 또는 작업 그룹을 사용하여 CIFS 서버를 설정하라는 메시지를 표시합니다.
 
 +
 다음 목록에서는 지침이 필요한 필드를 설명합니다.
@@ -56,7 +57,7 @@ CIFS를 선택하고 서버가 아직 설정되지 않은 경우 Cloud Manager�
 | 필드에 입력합니다 | 설명 
 
 
-| 액세스 제어 | NFS 엑스포트 정책은 볼륨에 액세스할 수 있는 서브넷의 클라이언트를 정의합니다. 기본적으로 Cloud Manager는 서브넷의 모든 인스턴스에 대한 액세스를 제공하는 값을 입력합니다. 
+| 액세스 제어 | NFS 엑스포트 정책은 볼륨에 액세스할 수 있는 서브넷의 클라이언트를 정의합니다. 기본적으로 BlueXP는 서브넷의 모든 인스턴스에 대한 액세스를 제공하는 값을 입력합니다. 
 
 
 | 권한 및 사용자/그룹 | 이러한 필드를 사용하면 사용자 및 그룹(액세스 제어 목록 또는 ACL라고도 함)에 대한 SMB 공유에 대한 액세스 수준을 제어할 수 있습니다. 로컬 또는 도메인 Windows 사용자 또는 그룹, UNIX 사용자 또는 그룹을 지정할 수 있습니다. 도메인 Windows 사용자 이름을 지정하는 경우 domain\username 형식을 사용하여 사용자의 도메인을 포함해야 합니다. 
@@ -111,7 +112,7 @@ image:screenshot_define_ontap_vol_from_template.png["볼륨을 생성하기 위�
 . 이 볼륨에 필요한 모든 매개 변수를 정의한 후 * 템플릿 실행 * 을 클릭합니다.
 
 
-Cloud Manager는 볼륨을 프로비저닝하고 진행 상황을 볼 수 있도록 페이지를 표시합니다.
+BlueXP는 볼륨을 프로비저닝하고 진행 상황을 볼 수 있도록 페이지를 표시합니다.
 
 image:screenshot_template_creating_resource_ontap.png["템플릿에서 새 볼륨 생성 진행률을 보여 주는 스크린샷"]
 

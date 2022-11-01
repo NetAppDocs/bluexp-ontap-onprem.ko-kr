@@ -25,10 +25,8 @@ sidebar:
       url: "/task-provisioning-ontap.html"
     - title: System Manager를 사용하여 관리합니다
       url: "/task-administer-advanced-view.html"
-    - title: Active IQ 디지털 자문업체 를 사용하여 클러스터 최적화
+    - title: Digital Advisor를 사용하여 클러스터 최적화
       url: "/concept-aiq-digital-advisor.html"
-    - title: Active IQ 데이터를 사용하여 클러스터 관리
-      url: "/task-managing-ontap.html"
     - title: 온프레미스 ONTAP 작업 환경을 제거합니다
       url: "/task-remove-on-prem.html"
   - title: 지식 및 지원
@@ -59,11 +57,11 @@ homepage:
     links:
     - title: NetApp 커뮤니티
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Cloud Central 블로그
+    - title: BlueXP 블로그
       url: https://cloud.netapp.com/blog
     - title: 클라우드 웨비나
       url: https://cloud.netapp.com/events
 product-family:
-  name: Cloud Manager
+  name: BlueXP
   repo: cloud-manager-family
-  sidebar_label: 모든 Cloud Manager 설명서
+  sidebar_label: 모든 BlueXP 설명서
