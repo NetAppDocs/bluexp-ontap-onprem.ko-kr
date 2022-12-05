@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task-view-cluster-info.html 
+keywords: software contract, hardware contract, contracts, expiration date, expired, software contract 
+summary: Digital Wallet을 사용하면 클러스터 세부 정보와 하드웨어 및 소프트웨어 계약 상태를 볼 수 있습니다. 
+---
+= 클러스터 정보 및 계약 세부 정보를 봅니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Digital Wallet_을 사용하여 클러스터 세부 정보와 하드웨어 및 소프트웨어 계약 상태를 볼 수 있습니다.
+
+.단계
+. BlueXP 탐색 메뉴에서 * Governance > Digital Wallet * 을 선택합니다.
+. 디지털 지갑 * 에서 * 온-프레미스 ONTAP * 탭을 클릭합니다.
++
+소프트웨어 계약 및 하드웨어 계약 만료 날짜가 각 클러스터의 줄에 표시됩니다.
+
+. 계약이 만료일에 가깝거나 만료된 경우 BlueXP 오른쪽 하단에 있는 채팅 아이콘을 클릭하여 계약 연장을 요청할 수 있습니다.
+. 추가 세부 정보를 알고 싶은 클러스터의 경우 을 클릭합니다 image:button_down_caret.png["아래쪽 캐럿 아이콘"] 클러스터 정보를 확장합니다.
++
+image:screenshot_digital_wallet_license_info.png["클러스터 라이센스 정보를 볼 수 있도록 클러스터 세부 정보를 확장하는 스크린샷"]
+
+
