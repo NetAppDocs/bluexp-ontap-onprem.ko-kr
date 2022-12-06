@@ -14,7 +14,11 @@ sidebar:
   - title: 사내 ONTAP 클러스터 문서
     url: "/index.html"
   - title: 릴리스 정보
-    url: "/whats-new.html"
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
+    - title: 알려진 제한 사항
+      url: "/reference-limitations.html"
   - title: 시작하십시오
     entries:
     - title: 온프레미스 ONTAP 클러스터 관리에 대해 알아보십시오
