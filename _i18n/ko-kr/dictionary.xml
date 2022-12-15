@@ -442,4 +442,6 @@
   <block id="059eb0e13bd9e186363bedd175a5226b" category="list-text">메시지가 표시되면 ONTAP 자격 증명을 입력합니다.</block>
   <block id="e62e400b7f916eb360e1c51ccb93a44f" category="paragraph">작업 환경을 열 때마다 ONTAP 자격 증명으로 로그인하라는 메시지가 표시됩니다.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="03be90bdc455bf51f8b56b71203c2e11" category="list-text">BlueXP 콘솔에 액세스하기 위해 사용 중인 컴퓨터는 사설 네트워크의 다른 리소스에 대한 연결을 제공하는 방법과 유사하게 사내 ONTAP 클러스터에 대한 네트워크 연결이 있어야 합니다.</block>
+  <block id="9b97b7bd5e0a87be7bf218224ada83cf" category="paragraph-title">요구 사항</block>
 </blocks>
