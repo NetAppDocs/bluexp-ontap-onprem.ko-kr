@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
-summary: 온프레미스 ONTAP 클러스터의 새로운 기능에 대해 알아보십시오. 
+summary: BlueXP의 온프레미스 ONTAP 클러스터 관리 기능이 새롭게 선보이는 기능에 대해 알아보십시오. 
 ---
 = 온프레미스 ONTAP 클러스터의 새로운 기능
 :hardbreaks:
@@ -15,6 +15,18 @@ summary: 온프레미스 ONTAP 클러스터의 새로운 기능에 대해 알아
 
 [role="lead"]
 BlueXP(이전의 클라우드 관리자)의 온프레미스 ONTAP 클러스터 관리 기능을 새롭게 도입해 보십시오.
+
+
+
+== 2023년 1월 1일
+
+
+
+=== ONTAP 자격 증명을 저장합니다
+
+커넥터를 사용하지 않고 직접 검색된 온프레미스 ONTAP 작업 환경을 열면 ONTAP 클러스터 자격 증명을 저장할 수 있는 옵션이 제공되므로 작업 환경을 열 때마다 자격 증명을 입력할 필요가 없습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["이 옵션에 대해 자세히 알아보십시오."]
 
 
 
@@ -86,7 +98,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-administer-advance
 
 
 
-=== 디지털 지갑에서 "온-프레미스 ONTAP" 탭을 사용할 수 있습니다.
+=== 디지털 지갑에서 "온-프레미스 ONTAP" 탭을 사용할 수 있습니다
 
 이제 하드웨어 및 서비스 계약 만료일과 함께 온프레미스 ONTAP 클러스터의 인벤토리를 볼 수 있습니다. 클러스터에 대한 추가 정보도 제공됩니다.
 
@@ -98,7 +110,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 
 
-=== 온프레미스 ONTAP 클러스터의 볼륨에 추가하는 태그는 태그 지정 서비스와 함께 사용할 수 있습니다.
+=== 온프레미스 ONTAP 클러스터의 볼륨에 추가하는 태그는 태그 지정 서비스와 함께 사용할 수 있습니다
 
 볼륨에 추가하는 태그는 이제 애플리케이션 템플릿 서비스의 태그 지정 기능과 연결되어 리소스 관리를 구성하고 단순화할 수 있습니다.
 

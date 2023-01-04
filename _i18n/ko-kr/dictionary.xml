@@ -30,12 +30,9 @@
   <block id="2f799a76b51c894f217a81de4e75abc1" category="list-text">메시지가 표시되면 연결선을 만듭니다.</block>
   <block id="669e31e2ded4144ba1ab8e5d140217fa" category="list-text">ONTAP 클러스터 세부 정보 _ 페이지에서 클러스터 관리 IP 주소, admin 사용자 계정의 암호를 입력하고 * 추가 * 를 클릭합니다.</block>
   <block id="67fe55a3364c0f403605fc5a0962dd79" category="list-text">Details &amp; Credentials_페이지에서 작업 환경의 이름과 설명을 입력한 다음 * Go * 를 클릭합니다.</block>
-  <block id="1e54529331fefb19128d41707045a526" category="summary">온프레미스 ONTAP 클러스터의 새로운 기능에 대해 알아보십시오.</block>
   <block id="25203f9c21dc384a4870095f19f67811" category="doc">온프레미스 ONTAP 클러스터의 새로운 기능</block>
-  <block id="f25694bb9bc00e8fcfcc1a3c65dd482b" category="section-title">디지털 지갑에서 "온-프레미스 ONTAP" 탭을 사용할 수 있습니다.</block>
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">이제 하드웨어 및 서비스 계약 만료일과 함께 온프레미스 ONTAP 클러스터의 인벤토리를 볼 수 있습니다. 클러스터에 대한 추가 정보도 제공됩니다.</block>
   <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link-macro">이 중요한 온프레미스 클러스터 정보를 확인하는 방법을 알아보십시오</block>
-  <block id="d69df284f21ccdf93082c4aaf0953b6d" category="section-title">온프레미스 ONTAP 클러스터의 볼륨에 추가하는 태그는 태그 지정 서비스와 함께 사용할 수 있습니다.</block>
   <block id="3686b84bef4027bfe5a11fcf472d8662" category="paragraph">볼륨에 추가하는 태그는 이제 애플리케이션 템플릿 서비스의 태그 지정 기능과 연결되어 리소스 관리를 구성하고 단순화할 수 있습니다.</block>
   <block id="feea05ef76a2f6f2d444dfab436c31c4" category="section-title">온프레미스 ONTAP 클러스터를 위한 볼륨 생성 마법사가 간소화되었습니다</block>
   <block id="decff6be18712c90db61aad628609885" category="paragraph">볼륨 생성 마법사를 재설계했으므로 이제 사용자 지정 엑스포트 정책을 선택할 수 있습니다.</block>
@@ -440,8 +437,18 @@
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">시작하기 전에</block>
   <block id="bc3d7bdad28e2f8cac321d5cae0b897c" category="paragraph">BlueXP에서는 일부 System Manager 기능이 지원되지 않습니다.</block>
   <block id="059eb0e13bd9e186363bedd175a5226b" category="list-text">메시지가 표시되면 ONTAP 자격 증명을 입력합니다.</block>
-  <block id="e62e400b7f916eb360e1c51ccb93a44f" category="paragraph">작업 환경을 열 때마다 ONTAP 자격 증명으로 로그인하라는 메시지가 표시됩니다.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
   <block id="03be90bdc455bf51f8b56b71203c2e11" category="list-text">BlueXP 콘솔에 액세스하기 위해 사용 중인 컴퓨터는 사설 네트워크의 다른 리소스에 대한 연결을 제공하는 방법과 유사하게 사내 ONTAP 클러스터에 대한 네트워크 연결이 있어야 합니다.</block>
   <block id="9b97b7bd5e0a87be7bf218224ada83cf" category="paragraph-title">요구 사항</block>
+  <block id="a3df9ba5a49f94fff6553063f65ca85c" category="summary">BlueXP의 온프레미스 ONTAP 클러스터 관리 기능이 새롭게 선보이는 기능에 대해 알아보십시오.</block>
+  <block id="1f7138998459804601fc351f8d442e29" category="section-title">2023년 1월 1일</block>
+  <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">ONTAP 자격 증명을 저장합니다</block>
+  <block id="6a28e623eb98d9eb0799ab2c472620f3" category="paragraph">커넥터를 사용하지 않고 직접 검색된 온프레미스 ONTAP 작업 환경을 열면 ONTAP 클러스터 자격 증명을 저장할 수 있는 옵션이 제공되므로 작업 환경을 열 때마다 자격 증명을 입력할 필요가 없습니다.</block>
+  <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">이 옵션에 대해 자세히 알아보십시오.</block>
+  <block id="b269330dc42e4f7fc82bba99c0dd5fd7" category="paragraph"><block ref="b269330dc42e4f7fc82bba99c0dd5fd7" category="inline-link-rx"></block></block>
+  <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">디지털 지갑에서 "온-프레미스 ONTAP" 탭을 사용할 수 있습니다</block>
+  <block id="884e6fc7085a6b2763738e713000a65f" category="section-title">온프레미스 ONTAP 클러스터의 볼륨에 추가하는 태그는 태그 지정 서비스와 함께 사용할 수 있습니다</block>
+  <block id="a3712341ec8d6b2a8227c05fca90e65c" category="paragraph">작업 환경을 열 때마다 ONTAP 자격 증명으로 로그인하라는 메시지가 표시됩니다. 매번 입력할 필요가 없도록 자격 증명을 저장하는 옵션이 있습니다. 이 옵션을 사용하는 경우 자격 증명은 BlueXP 사용자에게만 연결됩니다. 이 파일은 계정에 있는 다른 사람이 사용할 수 있도록 저장되지 않습니다.</block>
+  <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">ONTAP 클러스터의 사용자 이름과 암호를 입력하라는 메시지가 표시된 스크린샷</block>
+  <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
