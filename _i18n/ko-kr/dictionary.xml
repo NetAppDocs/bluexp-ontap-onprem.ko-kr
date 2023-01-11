@@ -452,4 +452,12 @@
   <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">이 옵션을 사용하면 시스템 관리자를 사용하여 ONTAP 9.12.1 이상을 실행하는 클러스터를 관리할 수 있습니다. 다른 관리 옵션은 사용할 수 없습니다. 표준 보기를 사용할 수 없으며 데이터 서비스를 설정할 수 없습니다.</block>
   <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">사내 클러스터에서 ONTAP 8.3 이상이 실행되고 있어야 합니다.</block>
   <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">이 옵션을 사용하면 다음 기능을 사용하여 ONTAP 8.3 이상을 실행하는 클러스터를 관리할 수 있습니다.</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">클라우드 공급자 솔루션 지원</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">BlueXP에 통합한 다음 클라우드 제공업체 솔루션에 대한 기술 지원은 해당 제품에 대한 BlueXP 설명서의 "도움말 얻기"를 참조하십시오.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP용 Amazon FSx</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Google Cloud용 Cloud Volumes Service</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
 </blocks>
