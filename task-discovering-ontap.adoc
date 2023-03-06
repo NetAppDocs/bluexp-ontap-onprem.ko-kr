@@ -85,7 +85,7 @@ Connector가 클라우드에 있는 경우 모든 아웃바운드 통신은 미�
 .단계
 . 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
 . Canvas 페이지에서 * 작업 환경 추가 * 를 클릭하고 * 온-프레미스 * 를 선택합니다.
-. On-Premises ONTAP * 를 선택합니다.
+. 온-프레미스 ONTAP 옆에 있는 * 검색 * 을 선택합니다.
 . 메시지가 표시되면 연결선을 만듭니다.
 +
 자세한 내용은 위의 요구 사항을 참조하십시오.
@@ -132,7 +132,7 @@ https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection 으
 .단계
 . 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
 . Canvas 페이지에서 * 작업 환경 추가 * 를 클릭하고 * 온-프레미스 * 를 선택합니다.
-. Local On-Premises ONTAP (Direct) * 를 선택합니다.
+. 로컬 온-프레미스 ONTAP(Direct) 옆에서 * Discover * 를 선택합니다.
 . 클러스터 관리 IP 주소, admin 사용자 계정의 암호를 입력하고 * 추가 * 를 클릭합니다.
 
 
