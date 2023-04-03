@@ -74,10 +74,7 @@
   <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">그러면 새 볼륨이 작업 환경에 추가됩니다.</block>
   <block id="0ca2ea4d1ed88de2980b88af718eedaf" category="paragraph">또한 볼륨에 Cloud Backup을 설정하는 등 템플릿에 보조 작업이 구현되는 경우 해당 작업도 수행됩니다.</block>
   <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">CIFS 공유를 프로비저닝한 경우 파일 및 폴더에 대한 사용자 또는 그룹 권한을 제공하고 해당 사용자가 공유를 액세스하고 파일을 생성할 수 있는지 확인합니다.</block>
-  <block id="d67fa48b66fcc0b221394da39a91b7bd" category="paragraph">1회 데이터 복제를 선택하여 Cloud Volumes ONTAP 시스템과 ONTAP 클러스터 간에 데이터를 복제할 수 있습니다. 이 경우 클라우드 간에 데이터를 이동하거나, 재해 복구 또는 장기 보존에 도움이 되는 반복 일정을 선택할 수 있습니다.</block>
-  <block id="4dafc83aff4c0c428f00d14ba637d08e" category="paragraph">클라우드 백업을 사용하여 사내 ONTAP 시스템의 데이터를 클라우드의 저렴한 오브젝트 스토리지로 백업할 수 있습니다. 이 서비스는 온프레미스 및 클라우드 데이터의 보호 및 장기 아카이브를 위한 백업 및 복원 기능을 제공합니다.</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">데이터를 스캔, 매핑 및 분류합니다</block>
-  <block id="8c5469d13e648a63a3b3954844a606d5" category="paragraph">Cloud Data Sense는 기업의 사내 클러스터를 스캔하여 데이터를 매핑 및 분류하고, 개인 정보를 식별할 수 있습니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
   <block id="74f0cc3c17958e80b4ccd076c9e50493" category="paragraph">Cloud Tiering을 사용하여 ONTAP 클러스터에서 오브젝트 스토리지로 비활성 데이터를 자동으로 계층화하여 데이터 센터를 클라우드로 확장하십시오.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
@@ -182,7 +179,6 @@
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">다음 변경 사항은 커넥터의 3.9.22 릴리스에 도입되었습니다.</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">새 개요 페이지</block>
   <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">사내 ONTAP 클러스터에 대한 주요 정보를 제공하는 새로운 개요 페이지가 도입되었습니다. 예를 들어, 이제 스토리지 효율성, 용량 배포, 시스템 정보와 같은 세부 정보를 볼 수 있습니다.</block>
-  <block id="bcc757acad6812aeb9904ad6e30c0738" category="paragraph">또한 데이터 계층화, 데이터 복제 및 백업을 지원하는 다른 NetApp 클라우드 서비스와의 통합에 대한 자세한 정보를 확인할 수 있습니다.</block>
   <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">온프레미스 ONTAP 클러스터의 개요 페이지를 보여 주는 스크린샷</block>
   <block id="5277a2f54c2173b12f8eb86ae9da078e" category="paragraph"><block ref="5277a2f54c2173b12f8eb86ae9da078e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">볼륨 페이지를 다시 디자인했습니다</block>
@@ -211,14 +207,6 @@
   <block id="bfd7860b885159ef1631572dc506bf0e" category="list-text">볼륨 &gt; 볼륨 추가 * 를 클릭합니다.</block>
   <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">* 세부 정보, 보호 및 태그 *: 이름과 크기 등 볼륨에 대한 세부 정보를 입력하고, 스냅샷 정책을 선택하고, 필요한 경우 볼륨 태그를 지정합니다.</block>
   <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">* 프로토콜 *: 볼륨의 프로토콜(NFS, CIFS 또는 iSCSI)을 선택한 다음 볼륨에 대한 액세스 제어 또는 권한을 설정합니다.</block>
-  <block id="0c57608b3dc99c491ccf28333d1a1ffd" category="inline-link">데이터를 복제하는 방법에 대해 알아보십시오</block>
-  <block id="057bdd599f52bea71a4eb64fb5283528" category="paragraph"><block ref="057bdd599f52bea71a4eb64fb5283528" category="inline-link-rx"></block></block>
-  <block id="b1d61988f64b60df32fb40aafa9a8a72" category="inline-link">데이터를 클라우드에 백업하는 방법을 알아보십시오</block>
-  <block id="0c8aebb65487842ae7cee0153641a2c0" category="paragraph"><block ref="0c8aebb65487842ae7cee0153641a2c0" category="inline-link-rx"></block></block>
-  <block id="657194a3b23d82061f3c6bde831200e2" category="inline-link">데이터를 스캔, 매핑 및 분류하는 방법을 알아봅니다</block>
-  <block id="87297131944257017f4fa2ace90b4993" category="paragraph"><block ref="87297131944257017f4fa2ace90b4993" category="inline-link-rx"></block></block>
-  <block id="e8d45bdb0673c56f56414b928ee6a759" category="inline-link">데이터를 클라우드에 계층화하는 방법을 알아보십시오</block>
-  <block id="f3ad359fcb06b212c3249a38f6d003e4" category="paragraph"><block ref="f3ad359fcb06b212c3249a38f6d003e4" category="inline-link-rx"></block></block>
   <block id="ac77698b17043bc79661d58433294c87" category="summary">BlueXP(이전의 Cloud Manager)를 통해 NetApp AFF 및 FAS 시스템을 관리하여 스토리지를 프로비저닝하고, 데이터를 복제하고, 중요한 클라우드 기반 데이터 서비스를 구성하십시오.</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp은 다양한 방법으로 BlueXP를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp은 다양한 방법으로 BlueXP 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
@@ -336,7 +324,6 @@
   <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">사내 ONTAP 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. BlueXP에 System Manager 인터페이스를 직접 포함하므로 고급 관리를 위해 BlueXP를 떠날 필요가 없습니다.</block>
   <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">System Manager와 함께 도움을 받으십시오</block>
   <block id="9094954a45207debf588da430f00322f" category="section-title">BlueXP 데이터 서비스를 활성화합니다</block>
-  <block id="5c4d507eeba73d584fcde6e4f2f1b172" category="paragraph">작업 환경에서 BlueXP 데이터 서비스를 활성화하여 데이터를 복제, 백업, 스캔 및 계층화할 수 있습니다.</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">데이터 복제</block>
   <block id="b76ae88aa754ea86825b84c8badae90a" category="section-title">데이터를 백업합니다</block>
   <block id="840a495adf1ad99ebc0b2945d0d37848" category="section-title">데이터를 클라우드에 계층화</block>
@@ -509,4 +496,25 @@
   <block id="adae1368fef895169a40e9765864c2d0" category="paragraph"><block ref="adae1368fef895169a40e9765864c2d0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d6a0741adb3101b3ac8caa5bee63eb9e" category="list-text">메시지가 표시되면 ONTAP 자격 증명을 입력합니다.</block>
   <block id="45d2775227d0faf611658c52b9e5d2da" category="paragraph">자격 증명을 저장하지 않으면 작업 환경을 열 때마다 ONTAP 자격 증명을 사용하여 로그인하라는 메시지가 표시됩니다. 매번 입력할 필요가 없도록 자격 증명을 저장하는 옵션이 있습니다. 이 옵션을 사용하는 경우 자격 증명은 BlueXP 사용자에게만 연결됩니다. 이 파일은 계정에 있는 다른 사람이 사용할 수 있도록 저장되지 않습니다.</block>
+  <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">또한 데이터 계층화, 데이터 복제 및 백업을 지원하는 다른 BlueXP 서비스와의 통합에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="c0c23b19a5402f833c9c6d50dc076f38" category="paragraph">작업 환경에서 BlueXP 데이터 서비스를 활성화하여 데이터 복제, 데이터 백업, 데이터 계층화 등을 수행할 수 있습니다.</block>
+  <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">Cloud Volumes ONTAP 시스템, ONTAP 파일 시스템용 Amazon FSx 및 ONTAP 클러스터 간에 데이터를 복제합니다. 클라우드 간 데이터 이동을 지원할 수 있는 일회성 데이터 복제 또는 재해 복구 또는 장기 데이터 보존에 도움이 되는 반복 일정을 선택하십시오.</block>
+  <block id="dc699e704dec5502b9aa219f9381ad94" category="inline-link">복제 설명서</block>
+  <block id="5f87e564b371518f04853fd701600836" category="paragraph"><block ref="5f87e564b371518f04853fd701600836" category="inline-link-rx"></block></block>
+  <block id="5cb29a187dfa39bb23966a4d01f66e5a" category="list-text">클라우드 백업을 사용하여 사내 ONTAP 시스템의 데이터를 클라우드의 저렴한 오브젝트 스토리지로 백업할 수 있습니다.</block>
+  <block id="846099e77083903f32f72c0e2156c3c5" category="inline-link">Cloud Backup 설명서</block>
+  <block id="ac0eb00d0ec982bf3152bc023bc35e99" category="paragraph"><block ref="ac0eb00d0ec982bf3152bc023bc35e99" category="inline-link-rx"></block></block>
+  <block id="6c8d5da78ab1fbae76a8c2a84cdb0a7c" category="list-text">기업 사내 클러스터를 스캔하여 데이터를 매핑 및 분류하고 개인 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
+  <block id="c0554a6d8deefa28ad0d9e99455a69f7" category="inline-link">클라우드 데이터 감지 설명서</block>
+  <block id="7eeb485682479a1e26ec3839825c2fef" category="paragraph"><block ref="7eeb485682479a1e26ec3839825c2fef" category="inline-link-rx"></block></block>
+  <block id="18b67cdd6c50872fa0de2de9dfd11343" category="inline-link">Cloud Tiering 설명서</block>
+  <block id="3e6d42d31ee577e8f72ad9c3894d3cf5" category="paragraph"><block ref="3e6d42d31ee577e8f72ad9c3894d3cf5" category="inline-link-rx"></block></block>
+  <block id="d645b6604b6bed9eead9cae8fe011de8" category="list-text">상태, 가동 시간, 성능 유지</block>
+  <block id="a49bfeae157cc560a89bac37a142be7d" category="list-text">운영 중단 또는 장애가 발생하기 전에 ONTAP 클러스터에 권장되는 해결 방법을 구현합니다.</block>
+  <block id="5e37dded84c4efba1c6c22de468101ca" category="inline-link">운영 복구 문서</block>
+  <block id="cca0aaac8a4ddfadb9d4340ee5c58c3d" category="paragraph"><block ref="cca0aaac8a4ddfadb9d4340ee5c58c3d" category="inline-link-rx"></block></block>
+  <block id="81e1fcaa1ce96a674b79e47a02d7f4ba" category="list-text">용량이 낮은 클러스터 식별</block>
+  <block id="6469bc932e571a70af6dc9f155dc8c4f" category="list-text">낮은 용량을 보이는 클러스터를 식별하고 현재 및 예상 용량에 대한 클러스터를 검토합니다.</block>
+  <block id="68eb93c26a1fa5e191126273ae12b097" category="inline-link">경제 효율성 문서화</block>
+  <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
 </blocks>
