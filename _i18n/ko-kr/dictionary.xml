@@ -19,11 +19,8 @@
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">커넥터 호스트는 포트 443을 통한 아웃바운드 HTTPS 액세스를 허용해야 합니다.</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">Connector가 클라우드에 있는 경우 모든 아웃바운드 통신은 미리 정의된 보안 그룹에서 허용됩니다.</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">기본 "관리" 방화벽 정책은 모든 IP 주소에서 인바운드 HTTPS 액세스를 허용합니다. 이 기본 정책을 수정하거나 자체 방화벽 정책을 만든 경우 HTTPS 프로토콜을 해당 정책에 연결하고 Connector 호스트에서 액세스를 활성화해야 합니다.</block>
-  <block id="e6dfd5017eebf97461338fa01b9cb076" category="paragraph">Digital Wallet_을 사용하여 클러스터 세부 정보와 하드웨어 및 소프트웨어 계약 상태를 볼 수 있습니다.</block>
-  <block id="7d8cc3d1d840829a8cdda42ed1f06341" category="list-text">디지털 지갑 * 에서 * 온-프레미스 ONTAP * 탭을 클릭합니다.</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">소프트웨어 계약 및 하드웨어 계약 만료 날짜가 각 클러스터의 줄에 표시됩니다.</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">클러스터 라이센스 정보를 볼 수 있도록 클러스터 세부 정보를 확장하는 스크린샷</block>
-  <block id="5796086a716a7059f711cc33be934605" category="paragraph"><block ref="5796086a716a7059f711cc33be934605" category="inline-image-macro-rx" type="image"></block></block>
   <block id="25203f9c21dc384a4870095f19f67811" category="doc">온프레미스 ONTAP 클러스터의 새로운 기능</block>
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">이제 하드웨어 및 서비스 계약 만료일과 함께 온프레미스 ONTAP 클러스터의 인벤토리를 볼 수 있습니다. 클러스터에 대한 추가 정보도 제공됩니다.</block>
   <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link-macro">이 중요한 온프레미스 클러스터 정보를 확인하는 방법을 알아보십시오</block>
@@ -122,7 +119,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">기술 자료</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
@@ -173,8 +169,6 @@
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
   <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">세 개의 점이 있는 아이콘.</block>
   <block id="a78d007a06bac736eaadb47926ca0155" category="list-text">을 클릭합니다 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> &gt; * 템플릿에서 볼륨 추가 *.</block>
-  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">아래쪽 캐럿 아이콘</block>
-  <block id="c3dcc3698432aa0b6e568ec48b5fe13f" category="list-text">추가 세부 정보를 알고 싶은 클러스터의 경우 을 클릭합니다 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> 클러스터 정보를 확장합니다.</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">다음 변경 사항은 커넥터의 3.9.22 릴리스에 도입되었습니다.</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">새 개요 페이지</block>
@@ -223,7 +217,6 @@
   <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">BlueXP에서 더 이상 관리하지 않으려는 경우 온-프레미스 ONTAP 작업 환경을 제거합니다.</block>
   <block id="bd60ce6149853fe9cc7d5bd848c0bde4" category="paragraph">작업 환경을 제거해도 ONTAP 클러스터에는 영향을 주지 않습니다. 언제든지 BlueXP에서 재검색할 수 있습니다.</block>
   <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">BlueXP 탐색 메뉴에서 * Governance &gt; Digital Wallet * 을 선택합니다.</block>
-  <block id="891b391e7c699621fb61d87adcf4faba" category="list-text">계약이 만료일에 가깝거나 만료된 경우 BlueXP 오른쪽 하단에 있는 채팅 아이콘을 클릭하여 계약 연장을 요청할 수 있습니다.</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">탐색 메뉴에서 * Storage &gt; Canvas * 를 선택합니다.</block>
   <block id="886d154945ab6b1710e580c43bfabaf7" category="paragraph">CIFS를 선택하고 서버가 아직 설정되지 않은 경우 BlueXP에서 Active Directory 또는 작업 그룹을 사용하여 CIFS 서버를 설정하라는 메시지를 표시합니다.</block>
   <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">NFS 엑스포트 정책은 볼륨에 액세스할 수 있는 서브넷의 클라이언트를 정의합니다. 기본적으로 BlueXP는 서브넷의 모든 인스턴스에 대한 액세스를 제공하는 값을 입력합니다.</block>
@@ -294,7 +287,6 @@
   <block id="643ed1d8ada28dc21c68f0cf27770cdf" category="sidebar">Digital Advisor를 사용하여 클러스터 최적화</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
-  <block id="4c36467537ed03dcde201f2a693ba5ec" category="summary">Digital Wallet을 사용하면 클러스터 세부 정보와 하드웨어 및 소프트웨어 계약 상태를 볼 수 있습니다.</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">클러스터 정보 및 계약 세부 정보를 봅니다</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">사내 ONTAP 클러스터에 대해 알아보십시오</block>
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">검색 및 관리 옵션</block>
@@ -517,4 +509,16 @@
   <block id="6469bc932e571a70af6dc9f155dc8c4f" category="list-text">낮은 용량을 보이는 클러스터를 식별하고 현재 및 예상 용량에 대한 클러스터를 검토합니다.</block>
   <block id="68eb93c26a1fa5e191126273ae12b097" category="inline-link">경제 효율성 문서화</block>
   <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="94fd71e366753efc2c71fcdd0fc3afd4" category="summary">BlueXP 디지털 지갑을 사용하면 각 온프레미스 ONTAP 클러스터에 대한 계약 세부 정보를 볼 수 있습니다. BlueXP에서 아직 클러스터를 발견하지 못한 경우 디지털 지갑에서도 이를 확인할 수 있습니다.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
+  <block id="2b474be1d4faf7d5e70a3977fa183a0a" category="paragraph">BlueXP 디지털 지갑에는 작업 환경으로 발견했거나 BlueXP에 추가한 NetApp Support 사이트 계정과 연결된 온프레미스 ONTAP 클러스터에 대한 세부 정보가 표시됩니다.</block>
+  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">On-Premises ONTAP * 를 선택합니다.</block>
+  <block id="93416f52fcce3ab7a37ed87d0aeb8134" category="paragraph">NetApp Support Site(NSS) 계정 자격 증명을 입력하라는 메시지가 표시되면 지원 대시보드 에 해당 자격 증명을 입력합니다. 계정을 추가하면 해당 계정에 포함된 클러스터가 표시됩니다.</block>
+  <block id="50b3dac67cf083c4a4dd133f8b8d0076" category="paragraph"><block ref="50b3dac67cf083c4a4dd133f8b8d0076" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="19d0494f8c332b6872314cab23b38a2d" category="list-text">클러스터가 작업 환경으로 아직 검색되지 않은 경우 * 검색 * 을 선택하고 표시되는 메시지를 따르십시오.</block>
+  <block id="87713871e17e5ef9a4e363132a527495" category="paragraph">클러스터를 발견한 후 BlueXP에서 작동 환경으로 사용할 수 있으므로 클러스터를 관리할 수 있습니다.</block>
+  <block id="06afa66cf6eca938a45be835a47030e1" category="paragraph-title">관련 링크</block>
+  <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">BlueXP 디지털 지갑에서 온프레미스 ONTAP 클러스터에 대한 라이센스 관리에 대해 자세히 알아보십시오</block>
+  <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
 </blocks>
