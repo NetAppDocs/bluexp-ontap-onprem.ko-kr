@@ -27,7 +27,7 @@ BlueXP는 사내 ONTAP 클러스터를 검색하고 관리하는 두 가지 방�
 --
 * 기본 볼륨 작업을 제공하는 표준 보기입니다
 * 시스템 관리자를 통해 관리 기능을 제공하는 고급 보기(ONTAP 9.10.0 이상에서 지원)
-* 데이터 복제, 백업 및 복구, 데이터 분류 및 데이터 계층화를 제공하는 BlueXP 데이터 서비스와 통합
+* 데이터 복제, 백업 및 복구, 데이터 분류 및 데이터 계층화를 제공하는 BlueXP 서비스와 통합
 
 
 이 옵션을 사용하려면 Connector가 필요합니다. Connector를 클라우드 공급자 또는 사내에 설치할 수 있습니다.
@@ -80,7 +80,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["B
 +
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["커넥터에 대해 자세히 알아보십시오"^]
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html["커넥터 간 전환"^]
-** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Cloud Tiering에 대해 알아보십시오"^]
+** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["BlueXP 계층화에 대해 알아보십시오"^]
 
 
 * 커넥터 호스트는 포트 443을 통한 아웃바운드 HTTPS 액세스를 허용해야 합니다.

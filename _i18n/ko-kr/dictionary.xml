@@ -14,8 +14,6 @@
   <block id="da1264a616f156bd6836a85f7dfdea5a" category="list-text"><block ref="da1264a616f156bd6836a85f7dfdea5a" category="inline-link-rx"></block></block>
   <block id="c870531773e82c374eb4125c8029e25e" category="inline-link">커넥터 간 전환</block>
   <block id="74d39f4b6fe0e32c5cfa2ed86891bf44" category="list-text"><block ref="74d39f4b6fe0e32c5cfa2ed86891bf44" category="inline-link-rx"></block></block>
-  <block id="36afa058c74d288178950c27927bdb38" category="inline-link">Cloud Tiering에 대해 알아보십시오</block>
-  <block id="4a88b41a42a9618291028593ae2a0b05" category="list-text"><block ref="4a88b41a42a9618291028593ae2a0b05" category="inline-link-rx"></block></block>
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">커넥터 호스트는 포트 443을 통한 아웃바운드 HTTPS 액세스를 허용해야 합니다.</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">Connector가 클라우드에 있는 경우 모든 아웃바운드 통신은 미리 정의된 보안 그룹에서 허용됩니다.</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">기본 "관리" 방화벽 정책은 모든 IP 주소에서 인바운드 HTTPS 액세스를 허용합니다. 이 기본 정책을 수정하거나 자체 방화벽 정책을 만든 경우 HTTPS 프로토콜을 해당 정책에 연결하고 Connector 호스트에서 액세스를 활성화해야 합니다.</block>
@@ -23,19 +21,9 @@
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">클러스터 라이센스 정보를 볼 수 있도록 클러스터 세부 정보를 확장하는 스크린샷</block>
   <block id="25203f9c21dc384a4870095f19f67811" category="doc">온프레미스 ONTAP 클러스터의 새로운 기능</block>
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">이제 하드웨어 및 서비스 계약 만료일과 함께 온프레미스 ONTAP 클러스터의 인벤토리를 볼 수 있습니다. 클러스터에 대한 추가 정보도 제공됩니다.</block>
-  <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link-macro">이 중요한 온프레미스 클러스터 정보를 확인하는 방법을 알아보십시오</block>
   <block id="3686b84bef4027bfe5a11fcf472d8662" category="paragraph">볼륨에 추가하는 태그는 이제 애플리케이션 템플릿 서비스의 태그 지정 기능과 연결되어 리소스 관리를 구성하고 단순화할 수 있습니다.</block>
   <block id="feea05ef76a2f6f2d444dfab436c31c4" category="section-title">온프레미스 ONTAP 클러스터를 위한 볼륨 생성 마법사가 간소화되었습니다</block>
   <block id="decff6be18712c90db61aad628609885" category="paragraph">볼륨 생성 마법사를 재설계했으므로 이제 사용자 지정 엑스포트 정책을 선택할 수 있습니다.</block>
-  <block id="4741d0181532f824e500e5fb61f113de" category="section-title">Active IQ 서비스에서 사내 ONTAP 클러스터 정보를 사용할 수 있습니다</block>
-  <block id="4daa302553b3da312bae6dd7eb61185b" category="inline-link-macro">클러스터를 검색합니다</block>
-  <block id="a0f0c23d7902a428b74d69d482ddd35f" category="list-text">Active IQ에서 온프레미스 클러스터 목록(NSS 계정 기반)을 표시하면 버튼을 클릭하여 에 연결할 수 있습니다 <block ref="6092f07e6002a33280f60ad47718209e" category="inline-link-macro-rx"></block> Cloud Manager Canvas에 추가합니다. 따라서 Cloud Manager에서 모든 스토리지 시스템을 쉽게 관리할 수 있습니다.</block>
-  <block id="9daa178990889b96486cdf1ec49a312b" category="inline-link-macro">Ansible 플레이북을 다운로드하고 클러스터 펌웨어를 업그레이드합니다</block>
-  <block id="17a4a2fa852d95e14e95882197efc7aa" category="list-text">Active IQ에서 하나 이상의 클러스터에 펌웨어 업데이트가 필요하다고 결정하면 버튼을 클릭하여 에 추가할 수 있습니다 <block ref="16afe937cb21a9e778b58814919b3a40" category="inline-link-macro-rx"></block>.</block>
-  <block id="6ab419e28cab05bd181b5548828ce291" category="inline-link-macro">Cloud-Ready 워크로드 탭</block>
-  <block id="1ebb52f6b09efabdd77b2a2848b85455" category="list-text">새로운 소식 <block ref="6662d2379ae546ce8e2cb9fe679f2897" category="inline-link-macro-rx"></block> NetApp이 온프레미스 ONTAP 클러스터에서 클라우드로 이동하는 데 적합한 워크로드 또는 볼륨 목록을 제공합니다. 이러한 볼륨 중 일부를 이동하면 비용을 절감하고 성능과 복원력을 향상시킬 수 있습니다.</block>
-  <block id="9e49141228614f46674f3e99aa052d48" category="inline-link-macro">리프트 앤 시프트(Lift and Shift)란 무엇입니까?</block>
-  <block id="40e7938989b9c693ef9d2535a73efc96" category="paragraph">을 참조하십시오 <block ref="e6e341fabb88ca4be499965211728d47" category="inline-link-macro-rx"></block></block>
   <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">수행할 수 있습니다</block>
   <block id="7c1c859794874e74db7044dd733c5ca7" category="list-text">Canvas 페이지에서 볼륨을 프로비저닝할 온프레미스 ONTAP 클러스터의 이름을 두 번 클릭합니다.</block>
   <block id="108a74a6cbb575c986177039e07dc411" category="list-text">마법사의 단계에 따라 볼륨을 생성합니다.</block>
@@ -69,10 +57,8 @@
   <block id="40136e65ff57723941fc2af2bf21d54a" category="inline-image-macro">템플릿에서 새 볼륨 생성 진행률을 보여 주는 스크린샷</block>
   <block id="1d2547b9bcbb0f13f704545fd4b3b7b0" category="paragraph"><block ref="1d2547b9bcbb0f13f704545fd4b3b7b0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">그러면 새 볼륨이 작업 환경에 추가됩니다.</block>
-  <block id="0ca2ea4d1ed88de2980b88af718eedaf" category="paragraph">또한 볼륨에 Cloud Backup을 설정하는 등 템플릿에 보조 작업이 구현되는 경우 해당 작업도 수행됩니다.</block>
   <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">CIFS 공유를 프로비저닝한 경우 파일 및 폴더에 대한 사용자 또는 그룹 권한을 제공하고 해당 사용자가 공유를 액세스하고 파일을 생성할 수 있는지 확인합니다.</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">데이터를 스캔, 매핑 및 분류합니다</block>
-  <block id="74f0cc3c17958e80b4ccd076c9e50493" category="paragraph">Cloud Tiering을 사용하여 ONTAP 클러스터에서 오브젝트 스토리지로 비활성 데이터를 자동으로 계층화하여 데이터 센터를 클라우드로 확장하십시오.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">피처</block>
@@ -94,10 +80,8 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022년 2월 27일</block>
-  <block id="a70e816a0245e4c041fe696bc068fde8" category="paragraph"><block ref="cdf49294fa22fe97f3cd9774fbb3d925" category="inline-link-rx"></block>. 클러스터에 대한 NetApp NSS(Support Site Account)가 있어야 하며 NSS 자격 증명을 Cloud Manager 계정에 연결해야 합니다.</block>
   <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022년 1월 11일</block>
   <block id="f61163b681442ac500a8018c87241770" category="section-title">2021년 11월 28일</block>
-  <block id="dbbd746e2d2c019dcb0c3c40b74f4f75" category="section-title">2021년 3월 8일</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">NSS 관리 &gt; NSS 계정 추가 * 를 클릭합니다.</block>
@@ -128,7 +112,6 @@
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">새 고급 보기</block>
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. Cloud Manager 인터페이스에 Cloud Manager 인터페이스가 포함되어 있으므로 고급 관리를 위해 Cloud Manager에서 그대로 둘 필요가 없습니다.</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">이 고급 보기는 9.10.0 이상을 실행하는 온프레미스 ONTAP 클러스터에서 미리 보기로 사용할 수 있습니다. NetApp은 이 경험을 개선하고 다음 릴리즈에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 사용하여 피드백을 보내주십시오.</block>
-  <block id="f303a87fe6efba259b752f5a9e11064b" category="inline-link-macro">고급 보기에 대해 자세히 알아보십시오</block>
   <block id="d7ce0ccf910efd77ec00e6d9bde719ca" category="doc">고급 보기를 사용하여 ONTAP를 관리합니다</block>
   <block id="74593b49f99b6e21d38ca3d969b213f3" category="paragraph">이 고급 보기는 미리 보기로 사용할 수 있습니다. NetApp은 이 경험을 개선하고 다음 릴리즈에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 사용하여 피드백을 보내주십시오.</block>
   <block id="f3c3ee89c80d32726f5f937c07631d1c" category="list-text">고급 스토리지 관리</block>
@@ -179,7 +162,6 @@
   <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">볼륨 페이지를 재설계하여 클러스터의 볼륨에 대한 요약을 제공합니다. 요약에는 총 볼륨 수, 프로비저닝된 용량, 사용된 용량 및 예약된 용량, 계층형 데이터의 양이 표시됩니다.</block>
   <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">온프레미스 ONTAP 클러스터의 볼륨 페이지를 보여 주는 스크린샷</block>
   <block id="bb4feb07894e787f9d7a8a9c00fa4d55" category="paragraph"><block ref="bb4feb07894e787f9d7a8a9c00fa4d55" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="677a2aadb254e7c4efbc10a593c2f4db" category="paragraph"><block ref="869a420ba883bbe1b303fc03706f8b2f" category="inline-link-rx"></block>.</block>
   <block id="d71f4e248e7b72dc823a682ad81ee0a7" category="list-text">메뉴 아이콘을 클릭하고 * 작업 공간에서 제거 * 를 선택합니다.</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">지원 등록 방법을 알아보십시오</block>
@@ -201,7 +183,6 @@
   <block id="bfd7860b885159ef1631572dc506bf0e" category="list-text">볼륨 &gt; 볼륨 추가 * 를 클릭합니다.</block>
   <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">* 세부 정보, 보호 및 태그 *: 이름과 크기 등 볼륨에 대한 세부 정보를 입력하고, 스냅샷 정책을 선택하고, 필요한 경우 볼륨 태그를 지정합니다.</block>
   <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">* 프로토콜 *: 볼륨의 프로토콜(NFS, CIFS 또는 iSCSI)을 선택한 다음 볼륨에 대한 액세스 제어 또는 권한을 설정합니다.</block>
-  <block id="ac77698b17043bc79661d58433294c87" category="summary">BlueXP(이전의 Cloud Manager)를 통해 NetApp AFF 및 FAS 시스템을 관리하여 스토리지를 프로비저닝하고, 데이터를 복제하고, 중요한 클라우드 기반 데이터 서비스를 구성하십시오.</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp은 다양한 방법으로 BlueXP를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp은 다양한 방법으로 BlueXP 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">문제를 해결하는 데 도움이 되는 문서를 찾으려면 BlueXP 기술 자료를 검색하십시오.</block>
@@ -271,16 +252,6 @@
   <block id="201080500e946070a2e4873042507c77" category="paragraph">확인 시 NetApp에 요청이 제출되고 NetApp Support 사이트 계정을 만들 것을 권장합니다.</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
   <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">NetApp Support 사이트 계정이 있으면 BlueXP로 이동하여 나중에 등록하기 위해 이 NSS 계정을 추가할 수 있습니다.</block>
-  <block id="0c726404ad0f4ebb2cb2a2d0bdc04192" category="summary">Active IQ 디지털 어드바이저는 BlueXP UI에 통합되어 단일 창에서 ONTAP 클러스터의 운영, 보안 및 성능을 최적화할 수 있습니다.</block>
-  <block id="f079f17b0940258743d34e7b771c715f" category="inline-link">디지털 자문업체</block>
-  <block id="3cc843c9493ef45c6bf2c9ccc0f047aa" category="paragraph"><block ref="6f877bd6e1a5dde59d706a7e9ecadb7f" category="inline-link-rx"></block> (이전의 Active IQ)는 BlueXP UI에 통합되어 단일 창에서 ONTAP 클러스터의 운영, 보안 및 성능을 최적화할 수 있습니다.</block>
-  <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">Digital Advisor를 사용하여 관심 목록 레벨에서 스토리지 시스템의 전체 상태, 시스템 상태, 재고, 계획, 업그레이드 및 중요한 통찰력을 확인할 수 있습니다.</block>
-  <block id="1dba3e6a495ee6df07aa2319c84850b9" category="paragraph">Digital Advisor는 NSS 계정 내의 모든 사내 ONTAP 시스템 및 Cloud Volumes ONTAP 시스템에 대한 정보를 제공합니다.</block>
-  <block id="1708a7899dbb54c155b6283363ffb7ca" category="section-title">Digital Advisor와 BlueXP의 작동 방식</block>
-  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisor 설명서</block>
-  <block id="0d3c9b9e85d797576ff3dd7d69000330" category="paragraph">을 참조하십시오<block ref="ec9c12602878d9d46f06e78e6704d9d1" category="inline-link-rx"></block> 를 참조하십시오.</block>
-  <block id="bcb152582247346e2f453fce02c1fc3c" category="inline-link-macro">BlueXP 3.9에 대한 고지 사항</block>
-  <block id="03f975e839e4278228720a5d19656288" category="list-text"><block ref="03f975e839e4278228720a5d19656288" category="inline-link-macro-rx"></block></block>
   <block id="c6b78f20a92771fa152f068d245ad75e" category="summary">ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. BlueXP에 System Manager 인터페이스를 직접 포함하므로 고급 관리를 위해 BlueXP를 떠날 필요가 없습니다.</block>
   <block id="38ff1351e45b1e4303e79145f4bc10b4" category="paragraph">BlueXP의 고급 보기를 통해 다음과 같은 추가 관리 기능을 사용할 수 있습니다.</block>
   <block id="e7b3f56c45c6705f279b059a9274225d" category="list-text">필요한 경우 * 표준 보기로 전환 * 을 클릭하여 BlueXP를 통한 표준 관리로 돌아갑니다.</block>
@@ -303,7 +274,6 @@
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">admin 사용자 계정의 클러스터 관리 IP 주소와 암호가 필요합니다.</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP는 HTTPS를 사용하여 ONTAP 클러스터를 검색합니다. 사용자 지정 방화벽 정책을 사용하는 경우 ONTAP 클러스터는 포트 443을 통한 인바운드 HTTPS 액세스를 허용해야 합니다.</block>
   <block id="5c4425fb4da620b6fcdee80150d6eaf9" category="doc">Connector로 검색된 온프레미스 ONTAP 클러스터를 관리합니다</block>
-  <block id="09d84fd04db90be9065d2babb3cfc106" category="paragraph">커넥터를 사용하여 온프레미스 ONTAP 클러스터를 검색한 경우 표준 보기에서 볼륨을 생성하고 고급 보기에서 시스템 관리자를 사용하고 BlueXP 데이터 서비스를 활성화할 수 있습니다.</block>
   <block id="95f71a487fe91fc0ea6cb5ded3a59cc3" category="section-title">표준 보기에서 볼륨을 생성합니다</block>
   <block id="b340c8312764799ec774b8e6fe16fec6" category="paragraph">BlueXP에서 커넥터를 사용하여 온프레미스 ONTAP 클러스터를 검색하고 나면 작업 환경을 열어 스토리지를 프로비저닝하고 관리할 수 있습니다.</block>
   <block id="afb7adc3debe75aa13a1fc4fdb7c0a81" category="paragraph">BlueXP를 사용하면 기존 애그리게이트에서 NFS 또는 CIFS 볼륨을 생성할 수 있습니다. BlueXP 표준 보기에서 사내 ONTAP 클러스터에 새 집계를 생성할 수 없습니다. 고급 보기를 사용하여 애그리게이트를 생성해야 합니다.</block>
@@ -315,22 +285,17 @@
   <block id="88e156005e08cd20db096e992009e8e5" category="paragraph"><block ref="c936b096dc7fb0bdb7ac3b472aa3a0a3" category="inline-xref-macro-rx"></block>.</block>
   <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">사내 ONTAP 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. BlueXP에 System Manager 인터페이스를 직접 포함하므로 고급 관리를 위해 BlueXP를 떠날 필요가 없습니다.</block>
   <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">System Manager와 함께 도움을 받으십시오</block>
-  <block id="9094954a45207debf588da430f00322f" category="section-title">BlueXP 데이터 서비스를 활성화합니다</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">데이터 복제</block>
   <block id="b76ae88aa754ea86825b84c8badae90a" category="section-title">데이터를 백업합니다</block>
   <block id="840a495adf1ad99ebc0b2945d0d37848" category="section-title">데이터를 클라우드에 계층화</block>
   <block id="9ac91148b1f0257152bc376ab38bf436" category="doc">사내 ONTAP 클러스터 설명서</block>
   <block id="64b5ac71fb7ec208d91ceb7344aa0b37" category="summary">BlueXP는 AFF/FAS 컨트롤러 및 ONTAP Select에서 실행되는 ONTAP 클러스터를 검색할 수 있습니다. BlueXP에 사내 ONTAP 시스템을 추가하면 단일 인터페이스에서 모든 스토리지 및 데이터 자산을 관리할 수 있습니다.</block>
-  <block id="6e81f0148dafd5ebdc4b99d02355fea7" category="doc">BlueXP의 온프레미스 ONTAP 클러스터 관리</block>
   <block id="fb24315d532abea28c978f8643868013" category="list-text">NFS 및 CIFS 볼륨 관리</block>
   <block id="3c5335f4270215aa7b16adf996cdf82d" category="list-text">ONTAP 시스템 관리자를 사용하여 고급 관리를 수행합니다</block>
   <block id="f040aeb46f1ebe5c4940eb6054748170" category="list-text">BlueXP 분석 및 제어를 통해 건강 및 성능 관찰 가능성을 확인합니다</block>
-  <block id="7c43ba708deecd15aad23a3cf40ef5ef" category="list-text">BlueXP의 데이터 서비스를 사용하여 데이터를 복제, 백업, 스캔, 분류 및 계층화합니다</block>
-  <block id="878dda247caccb5e11ebd045025d171c" category="list-text">Digital Wallet에서 하드웨어 및 소프트웨어 계약 상태 정보를 봅니다</block>
   <block id="4021c0d07bda2ea80ded248828507d76" category="paragraph">비용은 연결될 수 있지만 다음 사항에 따라 달라집니다.</block>
   <block id="f0ec06c8888b911820be6e1fcc689c0b" category="list-text">클러스터를 검색하고 관리하기 위한 Connector를 배포하는지 여부</block>
   <block id="0d29d27599c2af161506dbd9dbafba3f" category="paragraph">Connector를 클라우드 또는 사내에 설치할 수 있습니다.</block>
-  <block id="8750ef20d1caf40f87b4773f2d8980f4" category="list-text">Cloud Backup, Cloud Tiering 및 Data Sense와 같은 선택적 데이터 서비스를 사용할지 여부를 지정합니다.</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022년 12월 4일</block>
   <block id="612111851a1740ab34a9d35045621084" category="paragraph">다음 변경 사항은 커넥터의 3.9.24 릴리스에 도입되었습니다.</block>
   <block id="bad2ca9843e053dbde9d0f5cf2f18a7b" category="section-title">사내 ONTAP 클러스터를 검색하는 새로운 방법</block>
@@ -365,7 +330,6 @@
   <block id="ef8d24c115f07ff9475a999250c2a5d8" category="list-text">역할 기반 액세스 제어(커넥터만 해당)</block>
   <block id="4a2ee857fe0aa1483d07a75bf8d71bec" category="paragraph">커넥터를 사용하여 온프레미스 ONTAP 클러스터를 검색 및 관리할 때는 System Manager의 역할 기반 액세스 제어가 지원되지 않습니다. 검색 프로세스 중에 관리자 자격 증명을 입력하라는 메시지가 표시됩니다. 이러한 자격 증명은 System Manager에서 수행한 모든 작업에 사용됩니다.</block>
   <block id="75116741b7b623681d2dd352ea2ef388" category="paragraph">직접 검색 옵션을 사용하면 작업 환경을 열 때마다 ONTAP 자격 증명으로 로그인하라는 메시지가 표시됩니다.</block>
-  <block id="e57ef19ca7d4e00e73b11a38b0a89a63" category="paragraph">Cloud Backup에서 직접 사내 클러스터의 Cloud Backup을 활성화합니다.<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block></block>
   <block id="05280ae0f52dfc03d23962982cf79f21" category="list-text">시스템 관리자를 통해 관리 기능을 제공하는 고급 보기(ONTAP 9.10.0 이상에서 지원)</block>
   <block id="797c4c6d452fc60610219b263c22393d" category="paragraph">나중에 다른 검색 옵션을 사용하려는 경우 Canvas에서 내부 클러스터를 별도의 작업 환경으로 검색해야 합니다. 그러면 다른 작업 환경을 제거할 수 있습니다.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
@@ -446,7 +410,6 @@
   <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다. 이러한 계정의 토큰은 90일 후에 만료됩니다. 이를 알리는 알림이 게시됩니다.</block>
   <block id="623e1951042cd3019a0cc38bf7556bee" category="summary">BlueXP에서 제공되는 ONTAP 시스템 관리자를 사용하여 볼륨 관리를 시작하고 고급 관리를 수행할 수 있도록 BlueXP의 온프레미스 ONTAP 클러스터를 검색할 수 있습니다.</block>
-  <block id="0cd9fea7f87f5a503f2d07cc992f0993" category="list-text">데이터 복제, 백업 및 복구, 데이터 분류 및 데이터 계층화를 제공하는 BlueXP 데이터 서비스와 통합</block>
   <block id="e9b3b1686b45ea49547763029f379272" category="paragraph">이 옵션을 사용하려면 Connector가 필요합니다. Connector를 클라우드 공급자 또는 사내에 설치할 수 있습니다.</block>
   <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">이 옵션에는 커넥터가 필요하지 않습니다.</block>
   <block id="f75478b929f43a364a455cc34445b807" category="paragraph">BlueXP 서비스에 연결하여 9.12.1 이상을 실행하는 사내 ONTAP 클러스터에서 System Manager에 액세스하면 BlueXP에서 직접 클러스터를 관리하라는 메시지가 표시됩니다. 이 프롬프트에 따라 직접 검색 옵션을 사용하여 BlueXP에서 클러스터를 검색합니다.</block>
@@ -493,14 +456,7 @@
   <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">Cloud Volumes ONTAP 시스템, ONTAP 파일 시스템용 Amazon FSx 및 ONTAP 클러스터 간에 데이터를 복제합니다. 클라우드 간 데이터 이동을 지원할 수 있는 일회성 데이터 복제 또는 재해 복구 또는 장기 데이터 보존에 도움이 되는 반복 일정을 선택하십시오.</block>
   <block id="dc699e704dec5502b9aa219f9381ad94" category="inline-link">복제 설명서</block>
   <block id="5f87e564b371518f04853fd701600836" category="paragraph"><block ref="5f87e564b371518f04853fd701600836" category="inline-link-rx"></block></block>
-  <block id="5cb29a187dfa39bb23966a4d01f66e5a" category="list-text">클라우드 백업을 사용하여 사내 ONTAP 시스템의 데이터를 클라우드의 저렴한 오브젝트 스토리지로 백업할 수 있습니다.</block>
-  <block id="846099e77083903f32f72c0e2156c3c5" category="inline-link">Cloud Backup 설명서</block>
-  <block id="ac0eb00d0ec982bf3152bc023bc35e99" category="paragraph"><block ref="ac0eb00d0ec982bf3152bc023bc35e99" category="inline-link-rx"></block></block>
   <block id="6c8d5da78ab1fbae76a8c2a84cdb0a7c" category="list-text">기업 사내 클러스터를 스캔하여 데이터를 매핑 및 분류하고 개인 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
-  <block id="c0554a6d8deefa28ad0d9e99455a69f7" category="inline-link">클라우드 데이터 감지 설명서</block>
-  <block id="7eeb485682479a1e26ec3839825c2fef" category="paragraph"><block ref="7eeb485682479a1e26ec3839825c2fef" category="inline-link-rx"></block></block>
-  <block id="18b67cdd6c50872fa0de2de9dfd11343" category="inline-link">Cloud Tiering 설명서</block>
-  <block id="3e6d42d31ee577e8f72ad9c3894d3cf5" category="paragraph"><block ref="3e6d42d31ee577e8f72ad9c3894d3cf5" category="inline-link-rx"></block></block>
   <block id="d645b6604b6bed9eead9cae8fe011de8" category="list-text">상태, 가동 시간, 성능 유지</block>
   <block id="a49bfeae157cc560a89bac37a142be7d" category="list-text">운영 중단 또는 장애가 발생하기 전에 ONTAP 클러스터에 권장되는 해결 방법을 구현합니다.</block>
   <block id="5e37dded84c4efba1c6c22de468101ca" category="inline-link">운영 복구 문서</block>
@@ -521,4 +477,36 @@
   <block id="06afa66cf6eca938a45be835a47030e1" category="paragraph-title">관련 링크</block>
   <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">BlueXP 디지털 지갑에서 온프레미스 ONTAP 클러스터에 대한 라이센스 관리에 대해 자세히 알아보십시오</block>
   <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
+  <block id="eacd3ed630ae5b36126bd8cf27a43632" category="paragraph">BlueXP에서 제공되는 ONTAP 시스템 관리자를 사용하여 볼륨 관리를 시작하고 고급 관리를 수행할 수 있도록 BlueXP의 온프레미스 ONTAP 클러스터를 검색할 수 있습니다.</block>
+  <block id="137ffb60b26b3895f9ae6f3042e0d587" category="list-text">데이터 복제, 백업 및 복구, 데이터 분류 및 데이터 계층화를 제공하는 BlueXP 서비스와 통합</block>
+  <block id="e920ef862d77b3f54bb7bf3e535062a3" category="inline-link">BlueXP 계층화에 대해 알아보십시오</block>
+  <block id="ab39f7f9b8000627309eae76de10963b" category="list-text"><block ref="ab39f7f9b8000627309eae76de10963b" category="inline-link-rx"></block></block>
+  <block id="6568b62a7d7e403aa25f80da4df48e9a" category="summary">BlueXP에서 NetApp AFF 및 FAS 시스템을 관리하여 스토리지를 프로비저닝하고, 데이터를 복제하고, 중요한 클라우드 기반 데이터 서비스를 구성하십시오.</block>
+  <block id="afecfcae87b8b8aa94335648c348ba12" category="summary">BlueXP 디지털 어드바이저를 사용하면 ONTAP 클러스터의 운영, 보안 및 성능을 최적화할 수 있습니다.</block>
+  <block id="3d47a3f36b63e7d673bae6921c58af01" category="doc">BlueXP 디지털 어드바이저를 사용하여 클러스터를 최적화합니다</block>
+  <block id="f134e1429d83afa20e6cf1b79e3d20c9" category="paragraph">BlueXP 디지털 어드바이저를 사용하여 감시 대상 목록 수준에서 스토리지 시스템의 전반적인 상태, 시스템 상태, 재고, 계획, 업그레이드 및 중요한 정보를 확인할 수 있습니다.</block>
+  <block id="7e4f93e083961067c61f20abc47bc2d3" category="paragraph">디지털 어드바이저는 NetApp Support 사이트(NSS) 계정과 연결된 모든 사내 ONTAP 시스템 및 Cloud Volumes ONTAP 시스템에 대한 정보를 제공합니다.</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="section-title">추가 정보</block>
+  <block id="a97bd659401a9123a280fa1ec2f34874" category="inline-link">Digital Advisor 설명서</block>
+  <block id="ac26a062f287ef22a73c3d66ac423fc6" category="paragraph"><block ref="ac26a062f287ef22a73c3d66ac423fc6" category="inline-link-rx"></block></block>
+  <block id="c363f739f5bdf65a6ab4cae2b97b0d8a" category="inline-link">이 중요한 온프레미스 클러스터 정보를 확인하는 방법을 알아보십시오</block>
+  <block id="09cc582da9a3118b6520cf72b79e82b3" category="paragraph"><block ref="169e7af99ba2470a2a9f3de00e6dd5f8" category="inline-link-rx"></block>. 클러스터에 대한 NetApp NSS(Support Site Account)가 있어야 하며 NSS 자격 증명을 Cloud Manager 계정에 연결해야 합니다.</block>
+  <block id="2e709f51ffde46c86ebf493de1158cdd" category="doc">BlueXP의 사내 ONTAP 클러스터 관리</block>
+  <block id="55fd1b0a10f3ffa4fd854f3b58535a0d" category="list-text">BlueXP 서비스를 사용하여 데이터를 복제, 백업, 스캔, 분류 및 계층화합니다</block>
+  <block id="e6855a96bbe46265b9ff5968ea2f7ea1" category="list-text">BlueXP 디지털 지갑에서 하드웨어 및 소프트웨어 계약 상태 정보를 봅니다</block>
+  <block id="df72ae90e7d4142f112bbc2859e6948b" category="list-text">백업 및 복구, 계층화 및 분류와 같은 BlueXP 서비스 사용 여부</block>
+  <block id="8e8b2132d267e6b940332cd979b14732" category="paragraph">커넥터를 사용하여 온프레미스 ONTAP 클러스터를 검색한 경우 표준 보기에서 볼륨을 생성하고 고급 보기에서 시스템 관리자를 사용하고 BlueXP 데이터 서비스를 활성화할 수 있습니다.</block>
+  <block id="3cb732600caeb6ed3e89ade08544187b" category="paragraph">또한 볼륨에 대해 BlueXP 백업 및 복구를 활성화하는 등 템플릿에 보조 작업이 구현된 경우 해당 작업도 수행됩니다.</block>
+  <block id="c362ab732a9d440fb98db1e9b1395e29" category="section-title">BlueXP 서비스를 활성화합니다</block>
+  <block id="32f4a4b77e8bb8a5997c35c84f226d07" category="list-text">사내 ONTAP 시스템의 데이터를 클라우드의 저렴한 오브젝트 스토리지로 백업합니다.</block>
+  <block id="b781e6c9d1cf8ce1e5e954c2b07e6e8a" category="inline-link">백업 및 복구 설명서</block>
+  <block id="6645031c9d411c3036d45429e7b9b169" category="paragraph"><block ref="6645031c9d411c3036d45429e7b9b169" category="inline-link-rx"></block></block>
+  <block id="88038b21c0389de878b5955d44c08444" category="inline-link">분류 문서</block>
+  <block id="4f24a5d25954834b6fff1a00bf7ad8e8" category="paragraph"><block ref="4f24a5d25954834b6fff1a00bf7ad8e8" category="inline-link-rx"></block></block>
+  <block id="bdaba8e114e06250b64623fa35d279e2" category="list-text">ONTAP 클러스터에서 오브젝트 스토리지로 비활성 데이터를 자동으로 계층화하여 데이터 센터를 클라우드로 확장</block>
+  <block id="ec6926409b25c27a5821ec39e0552956" category="inline-link">계층화 설명서</block>
+  <block id="4be55bddfe0135eea0cb86495548cff5" category="paragraph"><block ref="4be55bddfe0135eea0cb86495548cff5" category="inline-link-rx"></block></block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="04bc2a96611cc493340c1c133029a56c" category="paragraph">BlueXP 백업 및 복구에서 직접 온프레미스 클러스터에서 클라우드 백업을 활성화합니다.<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block></block>
 </blocks>

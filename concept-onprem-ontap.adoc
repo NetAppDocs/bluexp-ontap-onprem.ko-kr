@@ -4,7 +4,7 @@ permalink: concept-onprem-ontap.html
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
 summary: BlueXP는 AFF/FAS 컨트롤러 및 ONTAP Select에서 실행되는 ONTAP 클러스터를 검색할 수 있습니다. BlueXP에 사내 ONTAP 시스템을 추가하면 단일 인터페이스에서 모든 스토리지 및 데이터 자산을 관리할 수 있습니다. 
 ---
-= BlueXP의 온프레미스 ONTAP 클러스터 관리
+= BlueXP의 사내 ONTAP 클러스터 관리
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -23,8 +23,8 @@ BlueXP는 AFF/FAS 컨트롤러 및 ONTAP Select에서 실행되는 ONTAP 클러�
 * NFS 및 CIFS 볼륨 관리
 * ONTAP 시스템 관리자를 사용하여 고급 관리를 수행합니다
 * BlueXP 분석 및 제어를 통해 건강 및 성능 관찰 가능성을 확인합니다
-* BlueXP의 데이터 서비스를 사용하여 데이터를 복제, 백업, 스캔, 분류 및 계층화합니다
-* Digital Wallet에서 하드웨어 및 소프트웨어 계약 상태 정보를 봅니다
+* BlueXP 서비스를 사용하여 데이터를 복제, 백업, 스캔, 분류 및 계층화합니다
+* BlueXP 디지털 지갑에서 하드웨어 및 소프트웨어 계약 상태 정보를 봅니다
 
 
 
@@ -37,5 +37,5 @@ BlueXP는 AFF/FAS 컨트롤러 및 ONTAP Select에서 실행되는 ONTAP 클러�
 +
 Connector를 클라우드 또는 사내에 설치할 수 있습니다.
 
-* Cloud Backup, Cloud Tiering 및 Data Sense와 같은 선택적 데이터 서비스를 사용할지 여부를 지정합니다.
+* 백업 및 복구, 계층화 및 분류와 같은 BlueXP 서비스 사용 여부
 
