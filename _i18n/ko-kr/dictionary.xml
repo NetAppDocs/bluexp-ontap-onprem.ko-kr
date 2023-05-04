@@ -325,7 +325,6 @@
   <block id="00134a9d28b6398470ee6b1362eeb303" category="section-title">고급 보기 사용(System Manager)</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 식별합니다. 이러한 제한 사항을 주의 깊게 검토하십시오.</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">알려진 제한 사항</block>
-  <block id="d7eb6312f68de520afbf446e19850f73" category="paragraph">BlueXP에서는 일부 System Manager 기능이 지원되지 않습니다.</block>
   <block id="bbbaee2173c1bbfdec1f9145d05f9f6e" category="paragraph">관리 IP 주소를 설정하고 온프레미스 ONTAP 클러스터에서 admin 암호를 구성한 후 BlueXP에서 클러스터를 검색할 수 있습니다.</block>
   <block id="ef8d24c115f07ff9475a999250c2a5d8" category="list-text">역할 기반 액세스 제어(커넥터만 해당)</block>
   <block id="4a2ee857fe0aa1483d07a75bf8d71bec" category="paragraph">커넥터를 사용하여 온프레미스 ONTAP 클러스터를 검색 및 관리할 때는 System Manager의 역할 기반 액세스 제어가 지원되지 않습니다. 검색 프로세스 중에 관리자 자격 증명을 입력하라는 메시지가 표시됩니다. 이러한 자격 증명은 System Manager에서 수행한 모든 작업에 사용됩니다.</block>
@@ -509,4 +508,8 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="04bc2a96611cc493340c1c133029a56c" category="paragraph">BlueXP 백업 및 복구에서 직접 온프레미스 클러스터에서 클라우드 백업을 활성화합니다.<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block></block>
+  <block id="51f9789c1f459351ccbb34c7b6043a74" category="section-title">지원되지 않는 클러스터입니다</block>
+  <block id="b9dbfde306bbf057c758e6f86b276382" category="paragraph">SAML 인증으로 구성된 온프레미스 ONTAP 클러스터는 BlueXP에서 지원되지 않습니다.</block>
+  <block id="3b4a393ec2775335fff67bde36ea1a2c" category="section-title">System Manager 제한 사항</block>
+  <block id="863293364989cec504101494f7916b90" category="paragraph">다음 System Manager 기능은 BlueXP에서 지원되지 않습니다.</block>
 </blocks>
