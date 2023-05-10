@@ -40,4 +40,4 @@ BlueXP 디지털 어드바이저를 사용하여 감시 대상 목록 수준에�
 
 == 추가 정보
 
-https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisor 설명서"^]
+https://["Digital Advisor 설명서"^]

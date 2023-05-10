@@ -41,12 +41,12 @@ image:screenshot-credentials.png["ONTAP 클러스터의 사용자 이름과 암�
 
 . 시스템 관리자를 사용하여 ONTAP를 관리합니다.
 +
-ONTAP에서 System Manager를 사용하는 데 도움이 필요한 경우 을 참조하십시오 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 설명서"^] 을 참조하십시오. 다음은 도움이 될 수 있는 몇 가지 링크입니다.
+ONTAP에서 System Manager를 사용하는 데 도움이 필요한 경우 을 참조하십시오 https://["ONTAP 설명서"^] 을 참조하십시오. 다음은 도움이 될 수 있는 몇 가지 링크입니다.
 
 +
-** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["볼륨 및 LUN 관리"^]
-** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["네트워크 관리"^]
-** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["데이터 보호"^]
+** https://["볼륨 및 LUN 관리"^]
+** https://["네트워크 관리"^]
+** https://["데이터 보호"^]
 
 
 
