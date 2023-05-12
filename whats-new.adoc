@@ -45,7 +45,7 @@ NOTE: 커넥터가 없는 경우 로컬 컴퓨터에서 BlueXP를 사용하여 �
 
 BlueXP 콘솔에서 온-프레미스 ONTAP 클러스터를 검색할 때 단일 옵션이 표시됩니다.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["작업 환경을 만들 때 사용할 수 있는 온-프레미스 ONTAP 검색 옵션을 보여 주는 스크린샷"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["작업 환경을 만들 때 사용할 수 있는 온-프레미스 ONTAP 검색 옵션을 보여 주는 스크린샷"]
 
 이전에는 직접 검색 및 Connector를 사용한 검색을 위한 별도의 흐름이 있었습니다. 이러한 두 옵션은 모두 사용할 수 있지만 단일 플로우로 병합됩니다.
 
@@ -89,7 +89,7 @@ https://["이 검색 및 관리 옵션에 대해 자세히 알아보십시오"].
 
 커넥터를 통해 검색된 온프레미스 ONTAP 클러스터의 경우 BlueXP의 표준 보기에 System Manager 또는 ONTAP CLI를 통해 생성된 FlexGroup 볼륨이 표시됩니다. 이러한 볼륨을 클론 복제, 설정 편집, 삭제 등을 통해 관리할 수도 있습니다.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["온프레미스 ONTAP 클러스터의 볼륨 페이지에 FlexGroup 볼륨이 나와 있는 스크린샷"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["온프레미스 ONTAP 클러스터의 볼륨 페이지에 FlexGroup 볼륨이 나와 있는 스크린샷"]
 
 BlueXP는 FlexGroup 볼륨 생성을 지원하지 않습니다. FlexGroup 볼륨을 생성하려면 System Manager 또는 CLI를 계속 사용해야 합니다.
 
@@ -107,7 +107,7 @@ BlueXP는 FlexGroup 볼륨 생성을 지원하지 않습니다. FlexGroup 볼륨
 
 또한 데이터 계층화, 데이터 복제 및 백업을 지원하는 다른 BlueXP 서비스와의 통합에 대한 세부 정보를 볼 수 있습니다.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["온프레미스 ONTAP 클러스터의 개요 페이지를 보여 주는 스크린샷"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-overview.png["온프레미스 ONTAP 클러스터의 개요 페이지를 보여 주는 스크린샷"]
 
 
 
@@ -115,7 +115,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 
 볼륨 페이지를 재설계하여 클러스터의 볼륨에 대한 요약을 제공합니다. 요약에는 총 볼륨 수, 프로비저닝된 용량, 사용된 용량 및 예약된 용량, 계층형 데이터의 양이 표시됩니다.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-volumes.png["온프레미스 ONTAP 클러스터의 볼륨 페이지를 보여 주는 스크린샷"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-volumes.png["온프레미스 ONTAP 클러스터의 볼륨 페이지를 보여 주는 스크린샷"]
 
 
 
