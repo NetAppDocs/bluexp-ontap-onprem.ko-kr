@@ -207,11 +207,11 @@ image:screenshot-standard-view.png["표준 보기로 전환 옵션을 보여 주
 
 === System Manager와 함께 도움을 받으십시오
 
-ONTAP에서 System Manager를 사용하는 데 도움이 필요한 경우 을 참조하십시오 https://["ONTAP 설명서"^] 을 참조하십시오. 다음은 도움이 될 수 있는 몇 가지 링크입니다.
+ONTAP에서 System Manager를 사용하는 데 도움이 필요한 경우 을 참조하십시오 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 설명서"^] 을 참조하십시오. 다음은 도움이 될 수 있는 몇 가지 링크입니다.
 
-* https://["볼륨 및 LUN 관리"^]
-* https://["네트워크 관리"^]
-* https://["데이터 보호"^]
+* https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["볼륨 및 LUN 관리"^]
+* https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["네트워크 관리"^]
+* https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["데이터 보호"^]
 
 
 
@@ -223,37 +223,37 @@ ONTAP에서 System Manager를 사용하는 데 도움이 필요한 경우 을 �
 데이터 복제:: Cloud Volumes ONTAP 시스템, ONTAP 파일 시스템용 Amazon FSx 및 ONTAP 클러스터 간에 데이터를 복제합니다. 클라우드 간 데이터 이동을 지원할 수 있는 일회성 데이터 복제 또는 재해 복구 또는 장기 데이터 보존에 도움이 되는 반복 일정을 선택하십시오.
 +
 --
-5f87e564b371518f04853fd701600836
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["복제 설명서"^]
 
 --
 데이터를 백업합니다:: 사내 ONTAP 시스템의 데이터를 클라우드의 저렴한 오브젝트 스토리지로 백업합니다.
 +
 --
-6645031c9d411c3036d45429e7b9b169
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["백업 및 복구 설명서"^]
 
 --
 데이터를 스캔, 매핑 및 분류합니다:: 기업 사내 클러스터를 스캔하여 데이터를 매핑 및 분류하고 개인 정보를 식별합니다. 따라서 보안 및 규정 준수 위험을 줄이고 스토리지 비용을 절감하며 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.
 +
 --
-4f24a5d25954834b6fff1a00bf7ad8e8
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["분류 문서"^]
 
 --
 데이터를 클라우드에 계층화:: ONTAP 클러스터에서 오브젝트 스토리지로 비활성 데이터를 자동으로 계층화하여 데이터 센터를 클라우드로 확장
 +
 --
-4be55bddfe0135eea0cb86495548cff5
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["계층화 설명서"^]
 
 --
 상태, 가동 시간, 성능 유지:: 운영 중단 또는 장애가 발생하기 전에 ONTAP 클러스터에 권장되는 해결 방법을 구현합니다.
 +
 --
-https://["운영 복구 문서"^]
+https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["운영 복구 문서"^]
 
 --
 용량이 낮은 클러스터 식별:: 낮은 용량을 보이는 클러스터를 식별하고 현재 및 예상 용량에 대한 클러스터를 검토합니다.
 +
 --
-https://["경제 효율성 문서화"^]
+https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["경제 효율성 문서화"^]
 
 --
 
