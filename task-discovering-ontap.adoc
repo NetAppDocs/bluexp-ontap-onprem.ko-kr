@@ -59,7 +59,7 @@ BlueXP 서비스에 연결하여 9.12.1 이상을 실행하는 사내 ONTAP 클�
 
 * BlueXP를 시작해야 하며, 여기에는 로그인 및 계정 설정이 포함됩니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["BlueXP를 시작하는 방법에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["BlueXP를 시작하는 방법에 대해 알아보십시오"^]
 
 * admin 사용자 계정의 클러스터 관리 IP 주소와 암호가 필요합니다.
 * BlueXP는 HTTPS를 사용하여 ONTAP 클러스터를 검색합니다. 사용자 지정 방화벽 정책을 사용하는 경우 ONTAP 클러스터는 포트 443을 통한 인바운드 HTTPS 액세스를 허용해야 합니다.
@@ -78,9 +78,9 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["B
 콜드 데이터를 클라우드에 계층화하려면 콜드 데이터를 계층화할 위치에 따라 Connector의 요구사항을 검토해야 합니다.
 
 +
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["커넥터에 대해 자세히 알아보십시오"^]
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html["커넥터 간 전환"^]
-** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["BlueXP 계층화에 대해 알아보십시오"^]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["커넥터에 대해 자세히 알아보십시오"^]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["커넥터 간 전환"^]
+** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["BlueXP 계층화에 대해 알아보십시오"^]
 
 
 * 커넥터 호스트는 포트 443을 통한 아웃바운드 HTTPS 액세스를 허용해야 합니다.
