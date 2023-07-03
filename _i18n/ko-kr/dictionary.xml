@@ -11,7 +11,6 @@
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">요구 사항</block>
   <block id="cb754929bd2884eb53bfc39ddd5aadad" category="paragraph">콜드 데이터를 클라우드에 계층화하려면 콜드 데이터를 계층화할 위치에 따라 Connector의 요구사항을 검토해야 합니다.</block>
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">커넥터에 대해 자세히 알아보십시오</block>
-  <block id="c870531773e82c374eb4125c8029e25e" category="inline-link">커넥터 간 전환</block>
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">커넥터 호스트는 포트 443을 통한 아웃바운드 HTTPS 액세스를 허용해야 합니다.</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">Connector가 클라우드에 있는 경우 모든 아웃바운드 통신은 미리 정의된 보안 그룹에서 허용됩니다.</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">기본 "관리" 방화벽 정책은 모든 IP 주소에서 인바운드 HTTPS 액세스를 허용합니다. 이 기본 정책을 수정하거나 자체 방화벽 정책을 만든 경우 HTTPS 프로토콜을 해당 정책에 연결하고 Connector 호스트에서 액세스를 활성화해야 합니다.</block>
@@ -160,15 +159,11 @@
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">클러스터 정보 및 계약 세부 정보를 봅니다</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">사내 ONTAP 클러스터에 대해 알아보십시오</block>
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">검색 및 관리 옵션</block>
-  <block id="a8b4b8a9fc6c5671a89f402cc069afda" category="paragraph">BlueXP는 사내 ONTAP 클러스터를 검색하고 관리하는 두 가지 방법을 제공합니다.</block>
-  <block id="a8fd54ba8c2928ea1b2a300ca75a00fa" category="list-text">커넥터를 통한 검색</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">기본 볼륨 작업을 제공하는 표준 보기입니다</block>
   <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">Connector는 클라우드 공급자 또는 사내에 설치해야 합니다.</block>
-  <block id="9023f6f288dd42621136db54ed1a4521" category="list-text">직접 검색</block>
   <block id="5883223e097bdc0962b33579a610a819" category="paragraph">검색된 클러스터는 BlueXP Canvas에서 작업 환경으로 사용할 수 있습니다.</block>
   <block id="5b972456043217ec9e0b836b869e5061" category="list-text">BlueXP를 시작해야 하며, 여기에는 로그인 및 계정 설정이 포함됩니다.</block>
   <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">BlueXP를 시작하는 방법에 대해 알아보십시오</block>
-  <block id="7d613f340824eb9c65d2bc768aa43577" category="list-text">Canvas 페이지에서 * 작업 환경 추가 * 를 클릭하고 * 온-프레미스 * 를 선택합니다.</block>
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">admin 사용자 계정의 클러스터 관리 IP 주소와 암호가 필요합니다.</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP는 HTTPS를 사용하여 ONTAP 클러스터를 검색합니다. 사용자 지정 방화벽 정책을 사용하는 경우 ONTAP 클러스터는 포트 443을 통한 인바운드 HTTPS 액세스를 허용해야 합니다.</block>
   <block id="5c4425fb4da620b6fcdee80150d6eaf9" category="doc">Connector로 검색된 온프레미스 ONTAP 클러스터를 관리합니다</block>
@@ -236,7 +231,6 @@
   <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">디지털 지갑에서 "온-프레미스 ONTAP" 탭을 사용할 수 있습니다</block>
   <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">ONTAP 클러스터의 사용자 이름과 암호를 입력하라는 메시지가 표시된 스크린샷</block>
   <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">이 옵션을 사용하면 시스템 관리자를 사용하여 ONTAP 9.12.1 이상을 실행하는 클러스터를 관리할 수 있습니다. 다른 관리 옵션은 사용할 수 없습니다. 표준 보기를 사용할 수 없으며 데이터 서비스를 설정할 수 없습니다.</block>
   <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">사내 클러스터에서 ONTAP 8.3 이상이 실행되고 있어야 합니다.</block>
   <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">이 옵션을 사용하면 다음 기능을 사용하여 ONTAP 8.3 이상을 실행하는 클러스터를 관리할 수 있습니다.</block>
   <block id="2901a10a7b1d7a91ad19913b88e371a6" category="list-text">온-프레미스 ONTAP 옆에 있는 * 검색 * 을 선택합니다.</block>
@@ -244,17 +238,10 @@
   <block id="e9b3b1686b45ea49547763029f379272" category="paragraph">이 옵션을 사용하려면 Connector가 필요합니다. Connector를 클라우드 공급자 또는 사내에 설치할 수 있습니다.</block>
   <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">이 옵션에는 커넥터가 필요하지 않습니다.</block>
   <block id="f75478b929f43a364a455cc34445b807" category="paragraph">BlueXP 서비스에 연결하여 9.12.1 이상을 실행하는 사내 ONTAP 클러스터에서 System Manager에 액세스하면 BlueXP에서 직접 클러스터를 관리하라는 메시지가 표시됩니다. 이 프롬프트에 따라 직접 검색 옵션을 사용하여 BlueXP에서 클러스터를 검색합니다.</block>
-  <block id="0f7cd5e1a723722aba147a095960b6f2" category="paragraph">온프레미스 ONTAP 클러스터를 검색하기 전에 다음 요구사항을 충족하는지 확인하십시오.</block>
   <block id="a1a264e616e24563d4b8f8b5795ea403" category="section-title">일반 요구 사항</block>
-  <block id="57e3bd92879e52aabb2d704d581a7eca" category="section-title">커넥터 검색 및 관리에 대한 요구 사항</block>
-  <block id="474308686741d3fac3585fee76ea82cb" category="section-title">직접 검색 및 관리 요구 사항</block>
-  <block id="20dbb48f93e265cf5e1f55346fd44629" category="section-title">클러스터 검색</block>
-  <block id="16708274774701d9897c9865da185258" category="paragraph">BlueXP의 Canvas에서 온프레미스 ONTAP 클러스터를 검색할 수 있습니다. 검색 프로세스를 시작하면 BlueXP는 다음과 같이 클러스터를 검색합니다.</block>
-  <block id="a1a1b3734bc79dc28eff3fad266ee579" category="list-text">ONTAP 클러스터에 연결된 활성 커넥터가 있는 경우 BlueXP는 해당 커넥터를 사용하여 클러스터를 검색하고 관리합니다.</block>
   <block id="1f98df6cf22b8e11ecbe762c7b523860" category="list-text">커넥터가 없거나 커넥터가 ONTAP 클러스터에 연결되지 않은 경우 BlueXP는 직접 검색 및 관리 옵션을 자동으로 사용합니다.</block>
   <block id="1de006c684d29369fa4392137f9a3894" category="list-text">_Discover_페이지에서 클러스터 관리 IP 주소와 admin 사용자 계정의 암호를 입력합니다.</block>
   <block id="f7372fe2a1c7b50e7c7d583296559005" category="list-text">커넥터를 사용하지 않고 클러스터를 직접 검색하는 경우 * 자격 증명 저장 * 을 선택할 수 있습니다.</block>
-  <block id="da8239e44e04f0173e627074f8abe90c" category="paragraph">이 옵션을 선택하면 작업 환경을 열 때마다 자격 증명을 다시 입력할 필요가 없습니다. 이러한 자격 증명은 BlueXP 사용자와만 연결됩니다. 이 파일은 계정에 있는 다른 사람이 사용할 수 있도록 저장되지 않습니다.</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">Discover * 를 선택합니다.</block>
   <block id="150f022493510e4fc7851b23e0afdee7" category="paragraph">BlueXP는 클러스터를 검색하고 Canvas의 작업 환경으로 추가합니다. 이제 클러스터 관리를 시작할 수 있습니다.</block>
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link-macro">검색된 클러스터를 직접 관리하는 방법에 대해 알아보십시오</block>
@@ -302,7 +289,6 @@
   <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">BlueXP 디지털 지갑에서 온프레미스 ONTAP 클러스터에 대한 라이센스 관리에 대해 자세히 알아보십시오</block>
   <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
   <block id="eacd3ed630ae5b36126bd8cf27a43632" category="paragraph">BlueXP에서 제공되는 ONTAP 시스템 관리자를 사용하여 볼륨 관리를 시작하고 고급 관리를 수행할 수 있도록 BlueXP의 온프레미스 ONTAP 클러스터를 검색할 수 있습니다.</block>
-  <block id="137ffb60b26b3895f9ae6f3042e0d587" category="list-text">데이터 복제, 백업 및 복구, 데이터 분류 및 데이터 계층화를 제공하는 BlueXP 서비스와 통합</block>
   <block id="e920ef862d77b3f54bb7bf3e535062a3" category="inline-link">BlueXP 계층화에 대해 알아보십시오</block>
   <block id="6568b62a7d7e403aa25f80da4df48e9a" category="summary">BlueXP에서 NetApp AFF 및 FAS 시스템을 관리하여 스토리지를 프로비저닝하고, 데이터를 복제하고, 중요한 클라우드 기반 데이터 서비스를 구성하십시오.</block>
   <block id="afecfcae87b8b8aa94335648c348ba12" category="summary">BlueXP 디지털 어드바이저를 사용하면 ONTAP 클러스터의 운영, 보안 및 성능을 최적화할 수 있습니다.</block>
@@ -473,7 +459,6 @@
   <block id="468caeffde72f6e5b0fda6369c3f5f0d" category="paragraph"><block ref="468caeffde72f6e5b0fda6369c3f5f0d" category="inline-link-rx"></block></block>
   <block id="0377f2dd7cfc90832cf86e4cdea18b27" category="paragraph"><block ref="0377f2dd7cfc90832cf86e4cdea18b27" category="inline-link-rx"></block></block>
   <block id="02156a4727415877195dc5302fa69275" category="list-text"><block ref="02156a4727415877195dc5302fa69275" category="inline-link-rx"></block></block>
-  <block id="2aeeba0020a7848f7902186fbd8cb9e8" category="list-text"><block ref="2aeeba0020a7848f7902186fbd8cb9e8" category="inline-link-rx"></block></block>
   <block id="0831a12ebe326ec4e6566367bf5ee293" category="list-text"><block ref="0831a12ebe326ec4e6566367bf5ee293" category="inline-link-rx"></block></block>
   <block id="6456f90a24e3ce74e10fac140453a9e4" category="paragraph"><block ref="6456f90a24e3ce74e10fac140453a9e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="31704fc30eb2f5485c6844b2921554ff" category="paragraph"><block ref="9ff7898ac3309c19fb8d99f370e44be1" category="inline-link-rx"></block>.</block>
@@ -521,4 +506,46 @@
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSS 자격 증명을 BlueXP 계정과 연결하는 것은 BlueXP 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="37ec2d4ffcb59f0218e30feb37bff04e" category="paragraph">커넥터가 없고 BlueXP에서 IP 주소에 연결할 수 없는 경우 커넥터를 생성하라는 메시지가 표시됩니다.</block>
+  <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2023년 7월 2일</block>
+  <block id="11f4fef53a39b0e83d4fdb9f922e768e" category="section-title">내 부동산에서 클러스터 검색</block>
+  <block id="4573c689742769edc01e3f45205fd784" category="paragraph">이제 BlueXP 로그인의 이메일 주소와 연결된 ONTAP 클러스터를 기반으로 BlueXP에서 사전 검색된 클러스터를 선택하여 * Canvas &gt; 내 공간 * 에서 온-프레미스 ONTAP 클러스터를 검색할 수 있습니다.</block>
+  <block id="5a7621b5dce7d879d4fc86499c34c6e6" category="inline-link">내 정보 페이지에서 클러스터를 검색하는 방법에 대해 알아봅니다</block>
+  <block id="92adae4e241e70163adb8c5469771a82" category="paragraph"><block ref="24b3a807a9407b81f5101322f988421d" category="inline-link-rx"></block>.</block>
+  <block id="0955e7586176682941c1bba912eb5cc4" category="paragraph">BlueXP는 사내 ONTAP 클러스터를 위한 두 가지 검색 및 관리 옵션을 제공합니다.</block>
+  <block id="58bc91c6986031a5bbfcc403ec8f4e40" category="list-text">Connector를 사용한 검색 및 관리</block>
+  <block id="c0dfb4f052c58a84c6f41e4a6de3caae" category="list-text">데이터 복제, 백업 및 복구, 데이터 분류 및 데이터 계층화를 제공하는 BlueXP 서비스와 통합</block>
+  <block id="ed2669e12a2aca1d23d0391fe9aa4d4f" category="list-text">직접 검색 및 관리</block>
+  <block id="551bc5d8466ddd3cdacf44099db1c7ab" category="list-text">이 옵션을 사용하면 시스템 관리자를 사용하여 ONTAP 9.12.1 이상을 실행하는 클러스터를 관리할 수 있습니다. 다른 관리 옵션은 사용할 수 없습니다. 표준 보기를 사용할 수 없으며 BlueXP 서비스를 활성화할 수 없습니다.</block>
+  <block id="6e66f27267404b1c78540790e471bc32" category="paragraph">온프레미스 ONTAP 클러스터를 검색하기 전에 다음 요구사항을 충족하는지 확인하십시오.</block>
+  <block id="860b5a921910be87e98249197300aeb3" category="section-title">커넥터 검색 요구 사항</block>
+  <block id="2c907b6caf1e28d6079ea82a7c2dae43" category="inline-link">여러 커넥터 사이를 전환하는 방법에 대해 알아봅니다</block>
+  <block id="80cc9f0ae996b19f3dc87ec1e851b9fc" category="list-text"><block ref="80cc9f0ae996b19f3dc87ec1e851b9fc" category="inline-link-rx"></block></block>
+  <block id="be8c0cb1018ac37d4931901b25f4d7b8" category="section-title">직접 검색에 대한 요구 사항</block>
+  <block id="381ebbd947b85d55ba63ca069f4fd6e2" category="section-title">클러스터를 검색합니다</block>
+  <block id="5929920680ed1fe51a421ba27720d080" category="paragraph">클러스터에 대한 세부 정보를 수동으로 제공하거나 내 정보 페이지에서 사전 검색된 클러스터를 선택하여 Canvas에서 온프레미스 ONTAP 클러스터를 검색합니다.</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">이 작업에 대해</block>
+  <block id="b5dd4f91cc6db2ca2f45e3bb102fb889" category="list-text">다음 두 가지 방법 중 하나로 검색 프로세스를 시작할 수 있습니다.</block>
+  <block id="e2283afc49db55afcdc12825748b74cc" category="list-text">온-프레미스 ONTAP 클러스터에 대한 세부 정보를 수동으로 추가하여 * Canvas &gt; 내 작업 환경 * 에서.</block>
+  <block id="a5c0c470fe95d7a64c3b5fcb2a94828e" category="list-text">BlueXP 로그인의 이메일 주소와 연결된 ONTAP 클러스터를 기반으로 BlueXP에서 사전 검색된 클러스터를 선택하여 * Canvas &gt; 내 에스테이트 * 에서 가져옵니다.</block>
+  <block id="2e064277badcd21c62e8fd2c2f433487" category="list-text">검색 프로세스를 시작하면 BlueXP는 다음과 같이 클러스터를 검색합니다.</block>
+  <block id="070663698acc2c2608384f63852f1471" category="list-text">ONTAP 클러스터에 연결된 활성 커넥터가 있는 경우 BlueXP는 해당 커넥터를 사용하여 클러스터를 검색하고 관리합니다.</block>
+  <block id="c77ba8df974ac9ac198176dcff4f8f52" category="section-title">수동으로 클러스터를 검색합니다</block>
+  <block id="8c3cbd392f1e7d6c008b581f7fc4fc9b" category="paragraph">클러스터 관리 IP 주소와 admin 사용자 계정의 암호를 입력하여 BlueXP에서 온-프레미스 ONTAP 클러스터를 검색합니다.</block>
+  <block id="4e206327ecb5a9834b615078326acaec" category="list-text">Canvas 페이지에서 * 작업 환경 추가 &gt; 온-프레미스 * 를 선택합니다.</block>
+  <block id="744a5b98e0d4825f191a9e89b609949c" category="paragraph">이 옵션을 선택하면 작업 환경을 열 때마다 자격 증명을 다시 입력할 필요가 없습니다. 이러한 자격 증명은 BlueXP 사용자 로그인에만 연결됩니다. BlueXP 계정에 있는 다른 사람이 사용할 수 있도록 저장되지 않습니다.</block>
+  <block id="50bc63d3ce96c1c059c531930e9b1ccc" category="section-title">사전 검색된 클러스터를 추가합니다</block>
+  <block id="9531ad82bf5dc45f66f60a601474ec73" category="paragraph">BlueXP는 BlueXP 로그인의 이메일 주소와 연결된 ONTAP 클러스터에 대한 정보를 자동으로 검색하여 * 내 부동산 * 페이지에 검색되지 않은 클러스터로 표시합니다. 검색되지 않은 클러스터 목록을 보고 한 번에 하나씩 추가할 수 있습니다.</block>
+  <block id="8b88ed64b6b30080910756ab3a0ea719" category="paragraph">내 정보 페이지에 표시되는 온프레미스 ONTAP 클러스터에 대해서는 다음을 참고하십시오.</block>
+  <block id="06730fe7ddb260af67563763fb1cff3f" category="list-text">BlueXP에 로그인하는 데 사용하는 이메일 주소는 등록된 전체 레벨 NetApp Support 사이트(NSS) 계정과 연결되어 있어야 합니다.</block>
+  <block id="05df8b76be995f5a9cfa0f9805c5c671" category="list-text">NSS 계정으로 BlueXP에 로그인하고 내 부동산 페이지로 이동하면 BlueXP는 해당 NSS 계정을 사용하여 계정과 연결된 클러스터를 찾습니다.</block>
+  <block id="17579109afe537b92b0d58dc1b3a2261" category="list-text">클라우드 계정으로 BlueXP에 로그인하고 내 부동산 페이지로 이동하면 BlueXP에서 이메일을 확인하라는 메시지를 표시합니다. 해당 이메일 주소가 NSS 계정과 연결된 경우 BlueXP는 해당 정보를 사용하여 계정과 연결된 클러스터를 찾습니다.</block>
+  <block id="cf28359d03fa5d995d85df0a5ebb62c8" category="list-text">NetApp에 AutoSupport 메시지를 성공적으로 보낸 ONTAP 클러스터만 BlueXP에 표시됩니다.</block>
+  <block id="9e5b23122dc2a6feb6587ea531e0634e" category="list-text">재고 목록을 새로 고치려면 내 부동산 페이지를 종료하고 5분 정도 기다린 다음 다시 표시합니다.</block>
+  <block id="0c136b2a4c8e3fbb938288c9e135d82b" category="list-text">내 부동산 * 을 선택합니다.</block>
+  <block id="ff24e889350068d5df46c75b1da1f5af" category="list-text">내 정보 페이지에서 온프레미스 ONTAP의 * 검색 * 을 선택합니다.</block>
+  <block id="eb0bc6fee7fc89460407cbab71c71faf" category="inline-image-macro">검색되지 않은 온프레미스 ONTAP 클러스터 12개를 보여 주는 내 부동산 페이지 스크린샷</block>
+  <block id="9ea83282503d3d948b041ef70d87101f" category="paragraph"><block ref="9ea83282503d3d948b041ef70d87101f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7689e37bac08b82f66558bf21e5ea57d" category="list-text">클러스터를 선택하고 * Discover * 를 선택합니다.</block>
+  <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">admin 사용자 계정의 암호를 입력합니다.</block>
 </blocks>
