@@ -537,7 +537,6 @@
   <block id="8b88ed64b6b30080910756ab3a0ea719" category="paragraph">내 정보 페이지에 표시되는 온프레미스 ONTAP 클러스터에 대해서는 다음을 참고하십시오.</block>
   <block id="06730fe7ddb260af67563763fb1cff3f" category="list-text">BlueXP에 로그인하는 데 사용하는 이메일 주소는 등록된 전체 레벨 NetApp Support 사이트(NSS) 계정과 연결되어 있어야 합니다.</block>
   <block id="05df8b76be995f5a9cfa0f9805c5c671" category="list-text">NSS 계정으로 BlueXP에 로그인하고 내 부동산 페이지로 이동하면 BlueXP는 해당 NSS 계정을 사용하여 계정과 연결된 클러스터를 찾습니다.</block>
-  <block id="17579109afe537b92b0d58dc1b3a2261" category="list-text">클라우드 계정으로 BlueXP에 로그인하고 내 부동산 페이지로 이동하면 BlueXP에서 이메일을 확인하라는 메시지를 표시합니다. 해당 이메일 주소가 NSS 계정과 연결된 경우 BlueXP는 해당 정보를 사용하여 계정과 연결된 클러스터를 찾습니다.</block>
   <block id="cf28359d03fa5d995d85df0a5ebb62c8" category="list-text">NetApp에 AutoSupport 메시지를 성공적으로 보낸 ONTAP 클러스터만 BlueXP에 표시됩니다.</block>
   <block id="9e5b23122dc2a6feb6587ea531e0634e" category="list-text">재고 목록을 새로 고치려면 내 부동산 페이지를 종료하고 5분 정도 기다린 다음 다시 표시합니다.</block>
   <block id="0c136b2a4c8e3fbb938288c9e135d82b" category="list-text">내 부동산 * 을 선택합니다.</block>
@@ -548,4 +547,5 @@
   <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">admin 사용자 계정의 암호를 입력합니다.</block>
   <block id="3f155fde095b56c33aa16ebcf24a5d94" category="doc">BlueXP를 사용한 사내 ONTAP 클러스터 관리</block>
+  <block id="9db4c476e2e5483cdbf8e71023278b72" category="list-text">클라우드 계정 또는 페더레이션 연결을 사용하여 BlueXP에 로그인하고 내 정보 페이지로 이동하면 BlueXP에서 이메일을 확인하라는 메시지를 표시합니다. 해당 이메일 주소가 NSS 계정과 연결된 경우 BlueXP는 해당 정보를 사용하여 계정과 연결된 클러스터를 찾습니다.</block>
 </blocks>
