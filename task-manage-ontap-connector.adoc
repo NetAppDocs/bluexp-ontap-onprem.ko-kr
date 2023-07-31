@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-ontap-connector.html 
-keywords: system manager, advanced view, access system manager, load system manager, use system manager 
+keywords: system manager, advanced view, access system manager, load system manager, use system manager, flexgroup, flexgroup volumes, create flexgroup volume 
 summary: ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. BlueXP에 System Manager 인터페이스를 직접 포함하므로 고급 관리를 위해 BlueXP를 떠날 필요가 없습니다. 
 ---
 = Connector로 검색된 온프레미스 ONTAP 클러스터를 관리합니다
@@ -24,9 +24,9 @@ image:screenshot-connector-we.png["Canvas에 표시되는 작업 환경 아이�
 
 
 
-== 표준 보기에서 볼륨을 생성합니다
+== 표준 보기에서 FlexVol 볼륨을 생성합니다
 
-BlueXP에서 커넥터를 사용하여 온프레미스 ONTAP 클러스터를 검색하고 나면 작업 환경을 열어 스토리지를 프로비저닝하고 관리할 수 있습니다.
+커넥터를 사용하여 BlueXP에서 온-프레미스 ONTAP 클러스터를 발견한 후 작업 환경을 열어 FlexVol 볼륨을 프로비저닝하고 관리할 수 있습니다.
 
 
 
@@ -38,8 +38,8 @@ BlueXP를 사용하면 기존 애그리게이트에서 NFS 또는 CIFS 볼륨을
 
 .단계
 . 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
-. Canvas 페이지에서 볼륨을 프로비저닝할 온프레미스 ONTAP 클러스터의 이름을 두 번 클릭합니다.
-. 볼륨 > 볼륨 추가 * 를 클릭합니다.
+. Canvas 페이지에서 볼륨을 프로비저닝할 온프레미스 ONTAP 클러스터를 선택합니다.
+. 볼륨 > 볼륨 추가 * 를 선택합니다.
 . 마법사의 단계에 따라 볼륨을 생성합니다.
 +
 .. * 세부 정보, 보호 및 태그 *: 이름과 크기 등 볼륨에 대한 세부 정보를 입력하고, 스냅샷 정책을 선택하고, 필요한 경우 볼륨 태그를 지정합니다.
@@ -76,7 +76,7 @@ CIFS를 선택하고 서버가 아직 설정되지 않은 경우 BlueXP에서 Ac
 | 권한 및 사용자/그룹 | 이러한 필드를 사용하면 사용자 및 그룹(액세스 제어 목록 또는 ACL라고도 함)에 대한 SMB 공유에 대한 액세스 수준을 제어할 수 있습니다. 로컬 또는 도메인 Windows 사용자 또는 그룹, UNIX 사용자 또는 그룹을 지정할 수 있습니다. 도메인 Windows 사용자 이름을 지정하는 경우 domain\username 형식을 사용하여 사용자의 도메인을 포함해야 합니다. 
 |===
 .. * Usage Profile *: 필요한 총 스토리지 양을 줄이기 위해 볼륨에서 스토리지 효율성 기능을 활성화 또는 비활성화할지 여부를 선택합니다.
-.. * Review * (검토 *): 볼륨에 대한 세부 정보를 검토한 다음 * Add * (추가 *)를 클릭합니다.
+.. * Review * (검토 *): 볼륨에 대한 세부 정보를 검토한 후 * Add * (추가 *)를 선택합니다.
 
 
 
@@ -93,12 +93,12 @@ CIFS를 선택하고 서버가 아직 설정되지 않은 경우 BlueXP에서 Ac
 NOTE: 템플릿을 사용하는 경우에만 NFS 또는 CIFS 볼륨을 생성할 수 있습니다.
 
 .단계
-. Canvas 페이지에서 볼륨을 프로비저닝할 온-프레미스 ONTAP 시스템의 이름을 클릭합니다.
-. 을 클릭합니다 image:screenshot_gallery_options.gif["세 개의 점이 있는 아이콘."] > * 템플릿에서 볼륨 추가 *.
+. Canvas 페이지에서 볼륨을 프로비저닝할 온프레미스 ONTAP 클러스터를 선택합니다.
+. 를 선택합니다 image:screenshot_gallery_options.gif["세 개의 점이 있는 아이콘."] > * 템플릿에서 볼륨 추가 *.
 +
 image:screenshot_template_add_vol_ontap.png["템플릿에서 새 볼륨을 추가하는 방법을 보여 주는 스크린샷"]
 
-. Select Template_page에서 볼륨을 생성하는 데 사용할 템플릿을 선택하고 * Next * 를 클릭합니다.
+. Select Template_page에서 볼륨을 생성하는 데 사용할 템플릿을 선택하고 * Next * 를 선택합니다.
 +
 image:screenshot_select_template_ontap.png["사용 가능한 응용 프로그램 템플릿의 스크린샷."]
 
@@ -109,14 +109,14 @@ Define Parameters_page가 표시됩니다.
 image:screenshot_define_ontap_vol_from_template.png["볼륨을 생성하기 위해 입력해야 하는 빈 템플릿을 보여 주는 스크린샷"]
 
 +
-* 참고: * 해당 매개 변수의 값을 보려면 * 읽기 전용 매개 변수 표시 * 확인란을 클릭하여 템플릿에 의해 잠긴 모든 필드를 표시할 수 있습니다. 기본적으로 이러한 미리 정의된 필드는 숨겨지고 완료해야 하는 필드만 표시됩니다.
+* 참고: * 해당 매개변수의 값을 보려면 * 읽기 전용 매개변수 표시 * 확인란을 선택하여 템플릿에 의해 잠긴 모든 필드를 표시할 수 있습니다. 기본적으로 이러한 미리 정의된 필드는 숨겨지고 완료해야 하는 필드만 표시됩니다.
 
 . context_area에서 작업 환경은 처음 시작한 작업 환경의 이름으로 채워집니다. 볼륨을 생성할 * 스토리지 VM * 및 * 애그리게이트 * 를 선택해야 합니다.
 . 템플릿에서 하드 코딩되지 않은 모든 매개변수에 대한 값을 추가합니다.
 +
 <<볼륨 생성,볼륨을 생성하는 데 필요한 매개 변수에 대해 알아보십시오>>.
 
-. 이 볼륨에 필요한 모든 매개 변수를 정의한 후 * 템플릿 실행 * 을 클릭합니다.
+. 이 볼륨에 필요한 매개 변수를 모두 정의한 후 * 템플릿 실행 * 을 선택합니다.
 
 
 .결과
@@ -130,6 +130,16 @@ image:screenshot_template_creating_resource_ontap.png["템플릿에서 새 볼�
 
 .작업을 마친 후
 CIFS 공유를 프로비저닝한 경우 파일 및 폴더에 대한 사용자 또는 그룹 권한을 제공하고 해당 사용자가 공유를 액세스하고 파일을 생성할 수 있는지 확인합니다.
+
+
+
+== FlexGroup 볼륨을 생성합니다
+
+BlueXP API를 사용하여 FlexGroup 볼륨을 생성할 수 있습니다. FlexGroup 볼륨은 자동 로드 분산 기능과 함께 고성능을 제공하는 스케일아웃 볼륨입니다.
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_flexgroup_ontap_create_vol.html["API를 사용하여 FlexGroup 볼륨을 생성하는 방법을 알아보십시오"^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["FlexGroup 볼륨이 무엇인지 알아보십시오"^]
+
 
 
 
@@ -187,17 +197,17 @@ link:reference-limitations.html["제한 사항 목록을 검토합니다"].
 
 === 고급 보기 사용(System Manager)
 
-온-프레미스 ONTAP 작업 환경을 열고 고급 보기 옵션을 클릭합니다.
+온-프레미스 ONTAP 작업 환경을 열고 고급 보기 옵션을 선택합니다.
 
 .단계
-. Canvas 페이지에서 온-프레미스 ONTAP 작업 환경의 이름을 두 번 클릭합니다.
-. 오른쪽 상단에서 * 고급 보기로 전환 * 을 클릭합니다.
+. Canvas 페이지에서 볼륨을 프로비저닝할 온프레미스 ONTAP 클러스터를 선택합니다.
+. 오른쪽 상단에서 * 고급 보기로 전환 * 을 선택합니다.
 +
 image:screenshot-advanced-view.png["고급 보기로 전환 옵션을 보여 주는 온프레미스 ONTAP 작업 환경의 스크린샷."]
 
-. 확인 메시지가 나타나면 메시지를 읽고 * 닫기 * 를 클릭합니다.
+. 확인 메시지가 나타나면 메시지를 읽고 * 닫기 * 를 선택합니다.
 . 시스템 관리자를 사용하여 ONTAP를 관리합니다.
-. 필요한 경우 * 표준 보기로 전환 * 을 클릭하여 BlueXP를 통한 표준 관리로 돌아갑니다.
+. 필요한 경우 * 표준 보기로 전환 * 을 선택하여 BlueXP를 통한 표준 관리로 돌아갑니다.
 +
 image:screenshot-standard-view.png["표준 보기로 전환 옵션을 보여 주는 온프레미스 ONTAP 작업 환경의 스크린샷"]
 

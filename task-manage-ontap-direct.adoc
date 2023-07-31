@@ -25,7 +25,7 @@ BlueXP에서는 일부 System Manager 기능이 지원되지 않습니다.
 link:reference-limitations.html["제한 사항 목록을 검토합니다"].
 
 .단계
-. Canvas 페이지에서 온-프레미스 ONTAP 작업 환경의 이름을 두 번 클릭합니다.
+. Canvas 페이지에서 온-프레미스 ONTAP 작업 환경을 선택합니다.
 +
 작업 환경 아이콘은 직접 검색된 클러스터를 식별합니다.
 
