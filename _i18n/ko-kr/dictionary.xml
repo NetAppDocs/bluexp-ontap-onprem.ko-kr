@@ -525,7 +525,6 @@
   <block id="87377698a8dca305b9579a13060142f2" category="section-title">FlexGroup 볼륨을 생성합니다</block>
   <block id="14b044746cb87538e696ebd7cef86e8f" category="paragraph">커넥터가 있는 클러스터를 관리하는 경우 이제 BlueXP API를 사용하여 FlexGroup 볼륨을 생성할 수 있습니다.</block>
   <block id="ca513b668252beaae65808764fc2388f" category="inline-link">FlexGroup 볼륨을 만드는 방법을 알아보십시오</block>
-  <block id="6fbac88fa8db3a2a67d5495cb1dcacd2" category="list-text"><block ref="6fbac88fa8db3a2a67d5495cb1dcacd2" category="inline-link-rx"></block></block>
   <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">FlexGroup 볼륨이 무엇인지 알아보십시오</block>
   <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
   <block id="ed36532cba007a185fa7e3557a16206a" category="list-text">Canvas 페이지에서 온-프레미스 ONTAP 작업 환경을 선택합니다.</block>
@@ -556,4 +555,5 @@
   <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">를 선택하여 테이블에 표시되는 열을 변경합니다 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 표시할 열을 선택합니다.</block>
   <block id="348552521b849746260fe8d296d34c15" category="list-text">를 선택하여 기존 케이스를 관리합니다 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* 케이스 종료 *: 케이스를 종료하는 이유에 대한 세부 정보를 제공하고 * 케이스 닫기 * 를 선택합니다.</block>
+  <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
 </blocks>

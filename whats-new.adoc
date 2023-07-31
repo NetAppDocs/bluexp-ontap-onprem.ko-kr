@@ -26,7 +26,7 @@ BlueXP의 사내 ONTAP 클러스터 관리의 새로운 기능에 대해 알아�
 
 커넥터가 있는 클러스터를 관리하는 경우 이제 BlueXP API를 사용하여 FlexGroup 볼륨을 생성할 수 있습니다.
 
-* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_flexgroup_ontap_create_vol.html["FlexGroup 볼륨을 만드는 방법을 알아보십시오"^]
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["FlexGroup 볼륨을 만드는 방법을 알아보십시오"^]
 * https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["FlexGroup 볼륨이 무엇인지 알아보십시오"^]
 
 
