@@ -137,7 +137,7 @@ CIFS 공유를 프로비저닝한 경우 파일 및 폴더에 대한 사용자 �
 
 BlueXP API를 사용하여 FlexGroup 볼륨을 생성할 수 있습니다. FlexGroup 볼륨은 자동 로드 분산 기능과 함께 고성능을 제공하는 스케일아웃 볼륨입니다.
 
-* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_flexgroup_ontap_create_vol.html["API를 사용하여 FlexGroup 볼륨을 생성하는 방법을 알아보십시오"^]
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["API를 사용하여 FlexGroup 볼륨을 생성하는 방법을 알아보십시오"^]
 * https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["FlexGroup 볼륨이 무엇인지 알아보십시오"^]
 
 
