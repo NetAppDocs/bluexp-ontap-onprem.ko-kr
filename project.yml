@@ -23,7 +23,7 @@ sidebar:
     entries:
     - title: 온프레미스 ONTAP 클러스터 관리에 대해 알아보십시오
       url: "/concept-onprem-ontap.html"
-    - title: ONTAP 클러스터에 대해 알아보십시오
+    - title: 사내 ONTAP 클러스터에 대해 알아보십시오
       url: "/task-discovering-ontap.html"
   - title: 온프레미스 ONTAP 클러스터를 관리합니다
     entries:
@@ -33,7 +33,7 @@ sidebar:
       url: "/task-manage-ontap-connector.html"
     - title: 클러스터 정보 및 계약 세부 정보를 봅니다
       url: "/task-view-cluster-info.html"
-    - title: Digital Advisor를 사용하여 클러스터 최적화
+    - title: BlueXP 디지털 어드바이저를 사용하여 클러스터를 최적화합니다
       url: "/concept-aiq-digital-advisor.html"
     - title: 온프레미스 ONTAP 작업 환경을 제거합니다
       url: "/task-remove-on-prem.html"

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-manage-ontap-connector.html 
 keywords: system manager, advanced view, access system manager, load system manager, use system manager, flexgroup, flexgroup volumes, create flexgroup volume 
-summary: ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. BlueXP에 System Manager 인터페이스를 직접 포함하므로 고급 관리를 위해 BlueXP를 떠날 필요가 없습니다. 
+summary: 커넥터를 사용하여 온프레미스 ONTAP 클러스터를 검색한 경우 표준 보기에서 볼륨을 생성하고 고급 보기에서 시스템 관리자를 사용하고 BlueXP 데이터 서비스를 활성화할 수 있습니다. 
 ---
-= Connector로 검색된 온프레미스 ONTAP 클러스터를 관리합니다
+= Connector로 검색된 클러스터를 관리합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -128,7 +128,7 @@ image:screenshot_template_creating_resource_ontap.png["템플릿에서 새 볼�
 
 또한 볼륨에 대해 BlueXP 백업 및 복구를 활성화하는 등 템플릿에 보조 작업이 구현된 경우 해당 작업도 수행됩니다.
 
-.작업을 마친 후
+.다음 단계
 CIFS 공유를 프로비저닝한 경우 파일 및 폴더에 대한 사용자 또는 그룹 권한을 제공하고 해당 사용자가 공유를 액세스하고 파일을 생성할 수 있는지 확인합니다.
 
 
@@ -143,7 +143,7 @@ BlueXP API를 사용하여 FlexGroup 볼륨을 생성할 수 있습니다. FlexG
 
 
 
-== 고급 보기를 사용하여 ONTAP를 관리합니다
+== 고급 보기(System Manager)를 사용하여 ONTAP 관리
 
 사내 ONTAP 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. BlueXP에 System Manager 인터페이스를 직접 포함하므로 고급 관리를 위해 BlueXP를 떠날 필요가 없습니다.
 
@@ -195,7 +195,7 @@ link:reference-limitations.html["제한 사항 목록을 검토합니다"].
 
 
 
-=== 고급 보기 사용(System Manager)
+=== 고급 보기를 사용합니다
 
 온-프레미스 ONTAP 작업 환경을 열고 고급 보기 옵션을 선택합니다.
 
