@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bluexp-ontap-onprem | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/ko-kr/bluexp-ontap-onprem/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/ko-kr/bluexp-ontap-onprem</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>ko-kr</language>
+    <ttl>60</ttl>
+    <pubDate>Wed, 15 Nov 2023 18:02:42 +0000</pubDate>
+    <lastBuildDate>Wed, 15 Nov 2023 18:02:42 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>사내 ONTAP 클러스터의 새로운 기능 (31 Jul 2023)</title>
+      <pubDate>Mon, 31 Jul 2023 18:39:30 +0000</pubDate>
+      <link>https://docs.netapp.com/ko-kr/bluexp-ontap-onprem/whats-new.html?time=1690828770</link>
+      <guid isPermaLink="false">Mon, 31 Jul 2023 18:39:30 +0000</guid>
+      <description><![CDATA[ BlueXP의 사내 ONTAP 클러스터 관리의 새로운 기능에 대해 알아보십시오. ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
