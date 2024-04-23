@@ -45,28 +45,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 법적 고지
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 시작하십시오
-    links:
-    - title: 온프레미스 ONTAP 클러스터 관리에 대해 알아보십시오
-      url: concept-onprem-ontap.html
-    - title: ONTAP 클러스터에 대해 알아보십시오
-      url: task-discovering-ontap.html
-  - title: 온프레미스 ONTAP 클러스터를 관리합니다
-    links:
-    - title: 검색된 클러스터를 직접 관리할 수 있습니다
-      url: task-manage-ontap-direct.html
-    - title: Connector로 검색된 클러스터 관리
-      url: task-manage-ontap-connector.html
-  - title: 블로그 커뮤니티
-    links:
-    - title: NetApp 커뮤니티
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP 블로그
-      url: https://cloud.netapp.com/blog
-    - title: 클라우드 웨비나
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
