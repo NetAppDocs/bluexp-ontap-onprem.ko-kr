@@ -431,7 +431,6 @@
   <block id="6e66f27267404b1c78540790e471bc32" category="paragraph">온프레미스 ONTAP 클러스터를 검색하기 전에 다음 요구사항을 충족하는지 확인하십시오.</block>
   <block id="860b5a921910be87e98249197300aeb3" category="section-title">커넥터 검색 요구 사항</block>
   <block id="2c907b6caf1e28d6079ea82a7c2dae43" category="inline-link">여러 커넥터 사이를 전환하는 방법에 대해 알아봅니다</block>
-  <block id="80cc9f0ae996b19f3dc87ec1e851b9fc" category="list-text"><block ref="80cc9f0ae996b19f3dc87ec1e851b9fc" category="inline-link-rx"></block></block>
   <block id="be8c0cb1018ac37d4931901b25f4d7b8" category="section-title">직접 검색에 대한 요구 사항</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">이 작업에 대해</block>
   <block id="e2283afc49db55afcdc12825748b74cc" category="list-text">온-프레미스 ONTAP 클러스터에 대한 세부 정보를 수동으로 추가하여 * Canvas &gt; 내 작업 환경 * 에서.</block>
@@ -530,4 +529,5 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
+  <block id="74702430dfc941eaabc5007d9e5554f6" category="list-text"><block ref="74702430dfc941eaabc5007d9e5554f6" category="inline-link-rx"></block></block>
 </blocks>
