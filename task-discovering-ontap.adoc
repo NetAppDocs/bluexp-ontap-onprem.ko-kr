@@ -80,7 +80,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["BlueXP�
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["BlueXP 계층화에 대해 알아보십시오"^]
 
 
-* 커넥터 호스트는 포트 443(HTTPS)을 통한 아웃바운드 연결을 허용해야 하며 ONTAP 클러스터는 포트 443을 통한 인바운드 HTTP 액세스를 허용해야 합니다.
+* 커넥터 호스트는 포트 443(HTTPS)을 통한 아웃바운드 연결을 허용해야 하며, ONTAP 클러스터는 포트 443을 통해 클러스터 관리 LIF에 대한 인바운드 HTTP 액세스를 허용해야 합니다.
 +
 Connector가 클라우드에 있는 경우 모든 아웃바운드 통신은 미리 정의된 보안 그룹에서 허용됩니다.
 
