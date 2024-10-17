@@ -538,7 +538,8 @@
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">ASA R2 시스템 지원</block>
   <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">ASA R2 시스템과 관련된 제한 사항</block>
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">ASA R2 시스템 검색은 전용 모드에서 BlueXP 를 사용할 때 지원되지 않습니다.</block>
-  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">이제 표준 모드 또는 전용 모드에서 BlueXP 를 사용할 때 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXP 배포 모드에 대해 알아보십시오</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
+  <block id="4f59dac344ae97a32d47fe32ee94249f" category="list-text">표준 모드 또는 제한 모드에서 BlueXP 를 사용하는 경우 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. ASA R2 시스템 검색은 전용 모드에서 BlueXP 를 사용할 때 지원되지 않습니다.</block>
+  <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">이제 표준 모드 또는 제한된 모드에서 BlueXP 를 사용할 때 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.</block>
 </blocks>
