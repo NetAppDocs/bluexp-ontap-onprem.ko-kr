@@ -516,7 +516,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="74702430dfc941eaabc5007d9e5554f6" category="list-text"><block ref="74702430dfc941eaabc5007d9e5554f6" category="inline-link-rx"></block></block>
   <block id="3ebda767e5f86db4657a423fd661132a" category="list-text">커넥터 호스트는 포트 443(HTTPS)을 통한 아웃바운드 연결을 허용해야 하며, ONTAP 클러스터는 포트 443을 통해 클러스터 관리 LIF에 대한 인바운드 HTTP 액세스를 허용해야 합니다.</block>
-  <block id="fde1abb5537b55c34521d414267b3f70" category="section-title">ASA r2 시스템</block>
   <block id="0bf2301f5cb3996192947186158c2e09" category="paragraph">NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA R2 시스템에서는 다른 관리 옵션을 사용할 수 없습니다. 표준 보기를 사용할 수 없으며 BlueXP 서비스를 활성화할 수 없습니다.</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">ASA R2 시스템에 대해 자세히 알아보십시오</block>
@@ -537,5 +536,9 @@
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP  조직 ID와 연결됩니다. BlueXP  조직에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024년 10월 7일</block>
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">ASA R2 시스템 지원</block>
-  <block id="effcb34ce55a7b0374e99feabbc3c970" category="paragraph">이제 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.</block>
+  <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">ASA R2 시스템과 관련된 제한 사항</block>
+  <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">ASA R2 시스템 검색은 전용 모드에서 BlueXP 를 사용할 때 지원되지 않습니다.</block>
+  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">이제 표준 모드 또는 전용 모드에서 BlueXP 를 사용할 때 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.</block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXP 배포 모드에 대해 알아보십시오</block>
+  <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
 </blocks>
