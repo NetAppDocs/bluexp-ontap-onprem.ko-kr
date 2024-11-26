@@ -53,7 +53,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022년 6월 7일</block>
-  <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">다음 변경은 커넥터의 3.9.19 릴리스에 도입되었습니다.</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">새 고급 보기</block>
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">ONTAP 사내 클러스터의 고급 관리가 필요한 경우에는 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 이러한 작업을 수행할 수 있습니다. Cloud Manager 인터페이스에 Cloud Manager 인터페이스가 포함되어 있으므로 고급 관리를 위해 Cloud Manager에서 그대로 둘 필요가 없습니다.</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">이 고급 보기는 9.10.0 이상을 실행하는 온프레미스 ONTAP 클러스터에서 미리 보기로 사용할 수 있습니다. NetApp은 이 경험을 개선하고 다음 릴리즈에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 사용하여 피드백을 보내주십시오.</block>
@@ -87,7 +86,6 @@
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">데이터 보호</block>
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
-  <block id="440be74a67502f9c3d55890782329328" category="paragraph">다음 변경 사항은 커넥터의 3.9.22 릴리스에 도입되었습니다.</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">새 개요 페이지</block>
   <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">사내 ONTAP 클러스터에 대한 주요 정보를 제공하는 새로운 개요 페이지가 도입되었습니다. 예를 들어, 이제 스토리지 효율성, 용량 배포, 시스템 정보와 같은 세부 정보를 볼 수 있습니다.</block>
   <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">온프레미스 ONTAP 클러스터의 개요 페이지를 보여 주는 스크린샷</block>
@@ -127,7 +125,6 @@
   <block id="f0ec06c8888b911820be6e1fcc689c0b" category="list-text">클러스터를 검색하고 관리하기 위한 Connector를 배포하는지 여부</block>
   <block id="0d29d27599c2af161506dbd9dbafba3f" category="paragraph">Connector를 클라우드 또는 사내에 설치할 수 있습니다.</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022년 12월 4일</block>
-  <block id="612111851a1740ab34a9d35045621084" category="paragraph">다음 변경 사항은 커넥터의 3.9.24 릴리스에 도입되었습니다.</block>
   <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">이 검색 및 관리 옵션에 대해 자세히 알아보십시오</block>
   <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">FlexGroup 볼륨</block>
   <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">온프레미스 ONTAP 클러스터의 볼륨 페이지에 FlexGroup 볼륨이 나와 있는 스크린샷</block>
@@ -540,6 +537,8 @@
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">ASA R2 시스템 검색은 전용 모드에서 BlueXP 를 사용할 때 지원되지 않습니다.</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXP 배포 모드에 대해 알아보십시오</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
-  <block id="4f59dac344ae97a32d47fe32ee94249f" category="list-text">표준 모드 또는 제한 모드에서 BlueXP 를 사용하는 경우 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. ASA R2 시스템 검색은 전용 모드에서 BlueXP 를 사용할 때 지원되지 않습니다.</block>
   <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">이제 표준 모드 또는 제한된 모드에서 BlueXP 를 사용할 때 BlueXP 에서 NetApp ASA R2 시스템을 검색할 수 있습니다. NetApp ASA R2 시스템을 검색하고 작업 환경을 열면 바로 System Manager로 이동합니다.</block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="doc">전용 모드로 ASA R2 시스템을 지원합니다</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">이제 프라이빗 모드에서 BlueXP 를 사용할 때 NetApp ASA R2 시스템을 검색할 수 있습니다. 이 지원은 BlueXP  3.9.46 비공개 모드 릴리즈부터 사용할 수 있습니다.</block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">2024년 11월 26일</block>
 </blocks>
