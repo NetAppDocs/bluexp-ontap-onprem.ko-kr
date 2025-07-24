@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-remove-on-prem.html 
-keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment 
+keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment, storage admin 
 summary: BlueXP에서 더 이상 관리하지 않으려는 경우 온-프레미스 ONTAP 작업 환경을 제거합니다. 
 ---
 = 온프레미스 ONTAP 작업 환경을 제거합니다
@@ -15,6 +15,9 @@ summary: BlueXP에서 더 이상 관리하지 않으려는 경우 온-프레미�
 
 [role="lead"]
 BlueXP에서 더 이상 관리하지 않으려는 경우 온-프레미스 ONTAP 작업 환경을 제거합니다.
+
+.필요한 BlueXP 역할:
+조직 관리자, 폴더 또는 프로젝트 관리자, 저장소 관리자. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP 액세스 역할에 대해 알아보세요."^]
 
 작업 환경을 제거해도 ONTAP 클러스터에는 영향을 주지 않습니다. 언제든지 BlueXP에서 재검색할 수 있습니다.
 
